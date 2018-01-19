@@ -1,3 +1,3 @@
-# MTC-Plan
-�v�����i�[�֘A�̃t�@�C��
+﻿# MTC-Plan
+プランナー関連のファイル
 

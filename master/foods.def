@@ -9,12 +9,10 @@ Sheet							# シート名
 Row								# 行範囲
 	6-149
 
-TextHeader						# ヘッダー
-	id,seq,name,type,effect_value,effect_rank,kind,rank,description_1,description_2,description_3,description_4
-
-TextFormat						# 出力フォーマット
-	$D     , $P,  $Q,  $S,          $T,         $U,  $V,  $W,           $X,           $Y,           $Z,          $AA
-
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	id,$D; seq,$P; name,$Q; type,$S
+	effect_value,$T; effect_rank,$U; kind,$V; rank,$W
+	description_1,$X; description_2,$Y; description_3,$Z; description_4,$AA
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

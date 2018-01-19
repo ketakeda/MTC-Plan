@@ -6,10 +6,10 @@ Sheet							# シート名
 	コインリスト
 Row								# 行範囲
 	6-
-TextHeader						# ヘッダー
-	id,name,gacha_id,description_1,description_2
-TextFormat						# 出力フォーマット
-	$C,$D,$F,$G,$N
+
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	id,$C; name,$D; gacha_id,$F; description_1,$G
+
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
 	csv/coins.csv

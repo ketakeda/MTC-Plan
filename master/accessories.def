@@ -7,13 +7,22 @@ Sheet							# シート名
 	そうび（アクセサリー）リスト
 	
 Row								# 行範囲
-	6-79
+	6-
 
-TextHeader						# ヘッダー
-	id,seq,name,effect_type_1,effect_type_2,min_attack,max_attack,min_magic,max_magic,min_defense,max_defense,min_speed,max_speed,accessory_group_id,rank,mode,detail,description_1,description_2,description_3,description_4
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$C
 
-TextFormat						# 出力フォーマット
-	$C,$S,$D,$F,$G,$H,$I,$J,$K,$L,$M,$N,$O,$P,$Q,$R
+Format							# 出力フォーマット
+	id,$C; seq,$S; name,$D
+	effect_type_1,$F; effect_type_2,$G
+	min_attack,$H; max_attack,$I
+	min_magic,$J; max_magic,$K
+	min_defense,$L; max_defense,$M
+	min_speed,$N; max_speed,$O
+	accessory_group_id,$P
+	rank,$Q; mode
+	detail,$R
+	description_1; description_2; description_3; description_4
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

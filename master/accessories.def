@@ -1,0 +1,23 @@
+﻿# 装備アクセサリー テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+
+Sheet							# シート名
+	そうび（アクセサリー）リスト
+	
+Row								# 行範囲
+	6-79
+
+TextHeader						# ヘッダー
+	id,seq,name,effect_type_1,effect_type_2,min_attack,max_attack,min_magic,max_magic,min_defense,max_defense,min_speed,max_speed,accessory_group_id,rank,mode,detail,description_1,description_2,description_3,description_4
+
+TextFormat						# 出力フォーマット
+	$C,$S,$D,$F,$G,$H,$I,$J,$K,$L,$M,$N,$O,$P,$Q,$R
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/accessories.csv
+
+Conv
+

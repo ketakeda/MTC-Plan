@@ -1,0 +1,24 @@
+﻿# 装備アクセサリー テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+
+Sheet							# シート名
+	たべものリスト
+
+Row								# 行範囲
+	6-149
+
+TextHeader						# ヘッダー
+	id,seq,name,type,effect_value,effect_rank,kind,rank,description_1,description_2,description_3,description_4
+
+TextFormat						# 出力フォーマット
+	$D     , $P,  $Q,  $S,          $T,         $U,  $V,  $W,           $X,           $Y,           $Z,          $AA
+
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/foods.csv
+
+Conv
+

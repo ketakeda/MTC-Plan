@@ -1,0 +1,17 @@
+﻿# コインデータ テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+Sheet							# シート名
+	コインリスト
+Row								# 行範囲
+	6-
+TextHeader						# ヘッダー
+	id,name,gacha_id,description_1,description_2
+TextFormat						# 出力フォーマット
+	$C,$D,$F,$G,$N
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/coins.csv
+Conv
+

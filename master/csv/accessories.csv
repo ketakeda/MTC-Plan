@@ -1,4 +1,4 @@
-﻿id,seq,name,effect_type_1,effect_type_2,min_attack,max_attack,min_magic,max_magic,min_defense,max_defense,min_speed,max_speed,accessory_group_id,rank,mode,detail,description_1,description_2,description_3,description_4
+id,seq,name,effect_type_1,effect_type_2,min_attack,max_attack,min_magic,max_magic,min_defense,max_defense,min_speed,max_speed,accessory_group_id,rank,mode,detail,description_1,description_2,description_3,description_4
 300001,1,そまつなうでわ,1,1,8,8,0,0,0,0,-5,0,0,0,,作りが大ざっぱなうでわ。\nこれぐらいが一番という妖怪もいる。,
 300006,2,安っぽいうでわ,1,1,8,8,0,0,-5,0,0,0,0,0,,安っぽさが目立つうでわ。\nでも　この感じに味があるというウワサも。,
 300002,3,ロックなうでわ,1,1,15,15,0,0,0,0,-8,0,0,0,,鉄のトゲトゲがついた　ロックなうでわ。\nこれで攻撃されたら痛そうだ。,

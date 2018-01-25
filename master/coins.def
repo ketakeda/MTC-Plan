@@ -9,6 +9,7 @@ Row								# 行範囲
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$C; name,$D; gacha_id,$F; description_1,$G
+	description_2
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

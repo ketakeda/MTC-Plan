@@ -1,0 +1,26 @@
+# 合成進化 テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+
+Sheet							# シート名
+	合成進化
+	
+Row								# 行範囲
+	6-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$C
+
+Format							# 出力フォーマット
+	id,$C
+	material_type_1,$D; material_id_1,$E
+	material_type_2,$F; material_id_2,$G
+	after_monster_id,$H
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/monster_synthesis_evolutions.csv
+
+Conv
+

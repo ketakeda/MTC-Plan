@@ -1,0 +1,18 @@
+# ガチャマスタ.xlsx gachas テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\ガチャマスタ.xlsx
+Sheet							# シート名
+	gachas
+Row								# 行範囲
+	3-7
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	id,$A; type,$B; name,$C; order,$D
+	start_at,$E; end_at,$F; banner,$G
+	attention_text_id,$H; description_text_id,$I
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/gachas.csv
+Conv
+

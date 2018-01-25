@@ -1,0 +1,24 @@
+# 報酬 テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+
+Sheet							# シート名
+	報酬
+
+Row								# 行範囲
+	5-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; deal_id,$C
+	item_type,$D; item_id,$E
+	amount,$F; over_type,$G
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/reward_items.csv
+
+Conv

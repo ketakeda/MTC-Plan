@@ -10,9 +10,9 @@ Row								# 行範囲
 	6-149
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
-	id,$D; seq,$P; name,$Q; type,$S
-	effect_value,$T; effect_rank,$U; kind,$V; rank,$W
-	description_1,$X; description_2,$Y; description_3,$Z; description_4,$AA
+	id,$D; seq,$P; name,$Q; type,$G
+	effect_value,$H; effect_rank,$I; kind,$J; rank,$K
+	description_1,$L; description_2,$M; description_3,$N; description_4,$O
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

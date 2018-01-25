@@ -1,0 +1,23 @@
+# クエスト種別 テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+
+Sheet							# シート名
+	クエスト種別
+
+Row								# 行範囲
+	5-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$C
+
+Format							# 出力フォーマット
+	id,$B; type,$C; title,$D
+	start_at,$E; end_at,$F
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/quests.csv
+
+Conv

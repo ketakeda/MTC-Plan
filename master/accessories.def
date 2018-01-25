@@ -20,9 +20,9 @@ Format							# 出力フォーマット
 	min_defense,$L; max_defense,$M
 	min_speed,$N; max_speed,$O
 	accessory_group_id,$P
-	rank,$Q; mode
-	detail,$R
-	description_1; description_2; description_3; description_4
+	rank,$Q; mode,$G
+	detail,$AK
+	description_1,$R; description_2; description_3; description_4
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

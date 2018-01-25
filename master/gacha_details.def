@@ -1,0 +1,18 @@
+# ガチャマスタ.xlsx gacha_details テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\ガチャマスタ.xlsx
+Sheet							# シート名
+	gacha_details
+Row								# 行範囲
+	3-28
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	id,$A; gacha_id,$B; lot_group,$C; play_time,$D
+	sub_lot_group,$E; sub_lot_play_time,$F; pay_type,$G
+	coin_id,$H; price,$I; limit_type,$J; limit_time,$K
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/gacha_details.csv
+Conv
+

@@ -1,0 +1,25 @@
+# レジェンド妖怪封印 テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+
+Sheet							# シート名
+	レジェンド妖怪封印
+	
+Row								# 行範囲
+	5-11
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; monster_id,$C
+	seal_1,$D; seal_2,$E; seal_3,$F; seal_4,$G
+	seal_5,$H; seal_6,$I; seal_7,$J; seal_8,$K
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/monster_seals.csv
+
+Conv
+

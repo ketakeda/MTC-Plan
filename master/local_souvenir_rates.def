@@ -1,0 +1,23 @@
+# おみやげリスト テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト souvenir.xlsx
+
+Sheet							# シート名
+	おみやげリスト
+
+Row								# 行範囲
+	5-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
+
+Format							# 出力フォーマット
+	id,$D; pref_id,$E
+	rate,$F; name,$G; description,$H
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/local_souvenir_rates.csv
+
+Conv

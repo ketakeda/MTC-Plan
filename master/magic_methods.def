@@ -1,0 +1,23 @@
+# MagicMaster.xlsx テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\バトル\MagicMaster.xlsx
+
+Sheet							# シート名
+	master
+	
+Row								# 行範囲
+	2-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$A
+
+Format							# 出力フォーマット
+	id,$A; name,$B; power,$C; element_id,$D
+	effect_id,$E; command_id,$F
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/magic_methods.csv
+
+Conv

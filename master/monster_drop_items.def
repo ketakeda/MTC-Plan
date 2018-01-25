@@ -1,0 +1,31 @@
+# 妖怪ドロップ テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+
+Sheet							# シート名
+	妖怪ドロップ
+	
+Row								# 行範囲
+	6-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$C
+
+Format							# 出力フォーマット
+	id,$C; monster_id,$D
+	rare_item_type1,$E; rare_item_id1,$F; rare_item_rate1,$G
+	rare_item_type2,$H; rare_item_id2,$I; rare_item_rate2,$J
+	rare_item_type3,$K; rare_item_id3,$L; rare_item_rate3,$M
+	rare_item_type4,$N; rare_item_id4,$O; rare_item_rate4,$P
+	item_type1,$Q; item_id1,$R; item_rate1,$S
+	item_type2,$T; item_id2,$U; item_rate2,$V
+	item_type3,$W; item_id3,$X; item_rate3,$Y
+	item_type4,$Z; item_id4,$AA; item_rate4,$AB
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/monster_drop_items.csv
+
+Conv
+

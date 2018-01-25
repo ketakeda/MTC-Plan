@@ -1,0 +1,24 @@
+# プレイヤー成長 テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+
+Sheet							# シート名
+	プレイヤー成長
+
+Row								# 行範囲
+	7-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$C
+
+Format							# 出力フォーマット
+	level,$C; required_exp,$F
+	max_hp,$G; max_best_friend,$H; max_battle_party,$I
+	closeness_bonus,$J; reward_deal_id,$L
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/level_details.csv
+
+Conv

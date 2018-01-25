@@ -1,0 +1,22 @@
+# StatusEffectMaster.xlsx テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\バトル\StatusEffectMaster.xlsx
+
+Sheet							# シート名
+	master
+	
+Row								# 行範囲
+	2-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$A
+
+Format							# 出力フォーマット
+	id,$A; category,$B; name,$C; effect_id,$D
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/status_effects.csv
+
+Conv

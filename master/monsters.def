@@ -25,6 +25,7 @@ Format							# 出力フォーマット
 	haunt_resist,$AD; exp,$AE; money,$AF
 	growth_type,$AG; equip_box,$AI
 	favorite_food_kind,$AJ; unfavorite_food_kind,$AK
+	base_rate_type,$AH
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

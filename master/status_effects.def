@@ -7,7 +7,7 @@ Sheet							# シート名
 	master
 	
 Row								# 行範囲
-	2-
+	2-55
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$A

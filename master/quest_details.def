@@ -7,7 +7,7 @@ Sheet							# シート名
 	クエスト
 
 Row								# 行範囲
-	6-
+	6-92
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$C

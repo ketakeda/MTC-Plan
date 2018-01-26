@@ -13,11 +13,14 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; order,$C
-	rotation_id,$D; item_type,$E
-	item_id,$F; amount,$G
-	pay_type,$H; price,$I
-	max_stock,$J; start_at,$K; end_at,$L
+	id,B; order,C
+	rotation_id,D; item_type,E
+	item_id,F; amount,G
+	pay_type,H; price,I
+	max_stock,J; start_at,K,DateTime; end_at,L,DateTime
+
+UTF8BOM							# UTF-8 BOM 有無設定
+	false
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

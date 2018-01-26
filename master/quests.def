@@ -13,8 +13,11 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$C
 
 Format							# 出力フォーマット
-	id,$B; type,$C; title,$D
-	start_at,$E; end_at,$F
+	id,B; type,C; title,D
+	start_at,E,DateTime; end_at,F,DateTime
+
+UTF8BOM							# UTF-8 BOM 有無設定
+	false
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

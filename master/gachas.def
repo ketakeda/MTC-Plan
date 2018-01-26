@@ -7,9 +7,12 @@ Sheet							# シート名
 Row								# 行範囲
 	3-7
 Format							# 出力フォーマット( ヘッダー,カラム; )
-	id,$A; type,$B; name,$C; order,$D
-	start_at,$E; end_at,$F; banner,$G
-	attention_text_id,$H; description_text_id,$I
+	id,A; type,B; name,C; order,D
+	start_at,E,DateTime; end_at,F,DateTime; banner,G
+	attention_text_id,H; description_text_id,I
+
+UTF8BOM							# UTF-8 BOM 有無設定
+	false
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

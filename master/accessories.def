@@ -9,6 +9,9 @@ Sheet							# シート名
 Row								# 行範囲
 	6-
 
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$C
 
@@ -19,10 +22,11 @@ Format							# 出力フォーマット
 	min_magic,$J; max_magic,$K
 	min_defense,$L; max_defense,$M
 	min_speed,$N; max_speed,$O
-	accessory_group_id
+#	accessory_group_id
 	rank,$Q; mode,$G
 	detail,$AK
-	description_1,$R; description_2; description_3; description_4
+	description_1,$R;
+	#description_2; description_3; description_4
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

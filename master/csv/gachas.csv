@@ -1,5 +1,0 @@
-id,type,name,order,start_at,end_at,banner,attention_text_id,description_text_id,stand_id
-1,1,コインガシャ,4,,,banner001.png,1,2,1
-2,2,レアガシャ,3,,,banner002.png,3,4,2
-3,2,超レアガシャ,2,,,banner003.png,5,6,3
-4,3,初心者ガシャ,1,,,banner004.png,7,8,2

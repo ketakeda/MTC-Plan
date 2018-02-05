@@ -7,7 +7,7 @@ Sheet							# シート名
 	どうぐリスト
 	
 Row								# 行範囲
-	6-76
+	6-
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$E
@@ -15,9 +15,9 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 Format							# 出力フォーマット
 	id,$E; name,$F; kana,$G
 	type,$H
-	effect_value_1,$I; effect_value_2,$J
-	enable_battle,$K
-	description_1,$L; description_2,$M
+	effect_value_1,$J; effect_value_2,$K
+	enable_battle,$L
+	description_1,$M; description_2,$N
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

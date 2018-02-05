@@ -7,10 +7,10 @@ Sheet							# シート名
 	ショップ
 
 Row								# 行範囲
-	5-60
+	5-
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$B
+	$C
 
 Format							# 出力フォーマット
 	id,$B; order,$C

@@ -1,4 +1,4 @@
-﻿#
+﻿# MEMO: DBとCSVの形が異なる
 
 inputFile						# 入力ファイル
 	${MTC-Developer}\plan\data\accessory_groups.xlsx
@@ -16,7 +16,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; sub_id,$C; monster_id,$D; monster_rank,$E; series,$F
+	id,$B; monster_ids,$C; monster_rank,$D; series,$E
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

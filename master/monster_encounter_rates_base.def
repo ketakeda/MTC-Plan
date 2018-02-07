@@ -16,7 +16,12 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	area_code,$B; monster_id_1,$C; monster_id_2,$D; monster_id_3,$E; monster_id_4,$F; monster_id_5,$G
+	area_code,$B
+	monster_id_1,$C; monster_weight_1,$D
+	monster_id_2,$E; monster_weight_2,$F
+	monster_id_3,$G; monster_weight_3,$H
+	monster_id_4,$I; monster_weight_4,$J
+	monster_id_5,$K; monster_weight_5,$L
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

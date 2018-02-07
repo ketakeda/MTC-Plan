@@ -1,29 +1,25 @@
-# ショップ テーブル出力定義
+# MEMO: スケジュールに対応した変更が必要
+# MTC リスト DBMaster.xlsx 金のタマゴ テーブル出力定義
 
 inputFile						# 入力ファイル
 	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
 
 Sheet							# シート名
-	ショップ
-
+	金のタマゴ
+	
 Row								# 行範囲
 	5-
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$C
+	$B
 
 Format							# 出力フォーマット
-	id,$B; order,$C
-	rotation_id,$D; item_type,$E
-	item_id,$F; amount,$G
-	pay_type,$H; price,$I
-	max_stock,$J; start_at,$K,DateTime; end_at,$L,DateTime
-
-UTF8BOM							# UTF-8 BOM 有無設定
-	false
+	id,$B; type,$D; reward_deal_id,$C
+	rate,$F; start_at,$G; end_at,$H
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
-	csv/shop_items.csv
+	csv/golden_egg_rewards.csv
 
 Conv
+

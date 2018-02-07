@@ -1,0 +1,4 @@
+type,name,kana,game_money,stockable_amounts,available_hours,rank_s,rank_a,rank_b,rank_c,rank_d,rank_e
+1,妖怪の木,ようかいのき,1000,4,72,0,0,0,0,0,0
+2,銀の妖怪の木,ぎんのようかいのき,200000,2,144,100,200,1000,0,0,0
+3,金の妖怪の木,きんのようかいのき,500000,1,240,200,400,2000,0,0,0

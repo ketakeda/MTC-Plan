@@ -1,25 +1,26 @@
-# 報酬 テーブル出力定義
+#
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+	${MTC-Developer}\plan\data\area_energy_rates.xlsx
 
 Sheet							# シート名
-	報酬
-
+	Sheet1
+	
 Row								# 行範囲
-	5-564
+	4-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; deal_id,$C
-	item_type,$D; item_id,$E
-	amount,$F; over_type,$G
+	id,$B; stage,$C; energy,$D; tree,$E
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
-	csv/reward_items.csv
+	csv/area_energy_rates.csv
 
 Conv
 

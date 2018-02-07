@@ -1,25 +1,25 @@
-# 報酬 テーブル出力定義
+﻿# 妖怪の木マスタ.xlsx テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+	${MTC-Developer}\plan\data\妖怪の木マスタ.xlsx
 
 Sheet							# シート名
-	報酬
-
+	tree_monster_rank_rates
+	
 Row								# 行範囲
-	5-564
+	6-
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$B
+	$E
 
 Format							# 出力フォーマット
-	id,$B; deal_id,$C
-	item_type,$D; item_id,$E
-	amount,$F; over_type,$G
+	id,$B; health_low,$C; health_high,$D
+	rank_s,$E; rank_a,$F; rank_b,$G
+	rank_c,$H; rank_d,$I; rank_e,$J
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
-	csv/reward_items.csv
+	csv/tree_monster_rank_rates.csv
 
 Conv
 

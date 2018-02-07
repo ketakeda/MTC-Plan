@@ -1,25 +1,29 @@
-# 報酬 テーブル出力定義
+#
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+	${MTC-Developer}\plan\data\monstertrees.xlsx
 
 Sheet							# シート名
-	報酬
-
+	Sheet1
+	
 Row								# 行範囲
-	5-564
+	4-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; deal_id,$C
-	item_type,$D; item_id,$E
-	amount,$F; over_type,$G
+	type,$B; name,$C; kana,$D; game_money,$E
+	stockable_amounts,$F; available_hours,$G
+	rank_s,$H; rank_a,$I; rank_b,$J; rank_c,$K
+	rank_d,$L; rank_e,$M
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
-	csv/reward_items.csv
+	csv/monstertrees.csv
 
 Conv
 

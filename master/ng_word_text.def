@@ -1,26 +1,26 @@
-# クエスト種別 テーブル出力定義
+#
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+	${MTC-Developer}\plan\data\ng_word_text.xlsx
 
 Sheet							# シート名
-	クエスト種別
-
+	Sheet1
+	
 Row								# 行範囲
-	5-
+	4-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$C
+	$B
 
 Format							# 出力フォーマット
-	id,$B; type,$C; title,$D
-	start_at,$E,DateTime; end_at,$F,DateTime
-
-UTF8BOM							# UTF-8 BOM 有無設定
-	false
+	ng_word,$B
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
-	csv/quests.csv
+	csv/ng_word_text.csv
 
 Conv
+

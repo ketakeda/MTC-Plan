@@ -1,24 +1,26 @@
-# MTC リスト DBMaster.xlsx 金のタマゴ テーブル出力定義
+#
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+	${MTC-Developer}\plan\data\monster_patterns.xlsx
 
 Sheet							# シート名
-	金のタマゴ
+	Sheet1
 	
 Row								# 行範囲
-	5-
+	4-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; type,$D; reward_deal_id,$C
-	rate,$F; start_at,$G; end_at,$H
+	id,$B; monster_id,$C; character,$D; level,$E; attack_lv,$E; special_attack_lv,$E; magic_lv,$E
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
-	csv/golden_egg_rewards.csv
+	csv/monster_patterns.csv
 
 Conv
 

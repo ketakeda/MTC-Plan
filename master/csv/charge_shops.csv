@@ -1,0 +1,5 @@
+id,name,price,stone_amount,reward_deal_id,order,android_product_id,ios_product_id,limit_type,limit_time,banner,schedule_id
+1,妖怪玉1個,120,1,0,0,jp.gungho.mtc.client.product_a,jp.gungho.mtc.client.product_a,0,0,,1
+2,妖怪玉5個,600,5,0,1,jp.gungho.mtc.client.product_b,jp.gungho.mtc.client.product_b,0,0,,1
+3,妖怪玉10個,1080,10,0,2,jp.gungho.mtc.client.product_c,jp.gungho.mtc.client.product_c,0,0,,1
+4,妖怪玉20個,2000,20,0,3,jp.gungho.mtc.client.product_d,jp.gungho.mtc.client.product_d,0,0,,1

@@ -1,27 +1,27 @@
-# クエスト テーブル出力定義
+# MEMO: スケジュールに対応した変更が必要
+# クエスト種別 テーブル出力定義
 
 inputFile						# 入力ファイル
 	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
 
 Sheet							# シート名
-	クエスト
+	クエスト種別
 
 Row								# 行範囲
-	6-
+	5-
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$C
 
 Format							# 出力フォーマット
-	id,$B; quest_id,$J; headline,$C
-	body,$D
-	action_type1,$K; action_id1,$L; condition_count1,$F
-	action_type2,$M; action_id2,$N; condition_count2,$G
-	action_type3,$O; action_id3,$P; condition_count3,$H
-	unlock_id,$Q; cooldown,$I; reward_deal_id,$R
+	id,$B; type,$C; title,$D
+	start_at,$E,DateTime; end_at,$F,DateTime
+
+UTF8BOM							# UTF-8 BOM 有無設定
+	false
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
-	csv/quest_details.csv
+	csv/quests.csv
 
 Conv

@@ -1,0 +1,28 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\charge_shops.xlsx
+
+Sheet							# シート名
+	Sheet1
+	
+Row								# 行範囲
+	4-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; name,$C; price,$D; stone_amount,$E
+	reward_deal_id,$F; order,$G; android_product_id,$H; ios_product_id,$I
+	limit_type,$J; limit_time,$K; banner,$L; schedule_id,$M
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/charge_shops.csv
+
+Conv
+

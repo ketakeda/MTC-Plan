@@ -1,4 +1,4 @@
-# MEMO: 管理画面側のエラー
+#
 
 inputFile						# 入力ファイル
 	${MTC-Developer}\plan\data\system_texts.xlsx

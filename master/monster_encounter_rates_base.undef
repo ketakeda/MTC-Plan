@@ -1,4 +1,4 @@
-#
+#　MEMO: 取り込み時に返還が必要
 
 inputFile						# 入力ファイル
 	${MTC-Developer}\plan\data\monster_encounter_rates_base.xlsx

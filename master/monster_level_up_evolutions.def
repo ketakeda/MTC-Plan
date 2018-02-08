@@ -13,8 +13,8 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$C
 
 Format							# 出力フォーマット
-	id,$C; level,$D
-	before_monster_id,$E; after_monster_id,$F
+	id,$D; level,$E
+	before_monster_id,$F; after_monster_id,$G
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

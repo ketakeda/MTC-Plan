@@ -22,7 +22,7 @@ Format							# 出力フォーマット
 	min_magic,$J; max_magic,$K
 	min_defense,$L; max_defense,$M
 	min_speed,$N; max_speed,$O
-#	accessory_group_id
+	accessory_group_id,$P
 	rank,$Q; mode,$G
 	detail,$AK
 	description_1,$R;

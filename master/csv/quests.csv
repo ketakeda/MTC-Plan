@@ -1,4 +1,4 @@
-id,type,title,schedule_id:$O
+id,type,title,schedule_id
 1,1,依頼クエスト,1
 2,2,デイリークエスト,1
 3,3,リピートクエスト,1

@@ -1,9 +1,9 @@
-# ガチャマスタ.xlsx gacha_details テーブル出力定義
+# ガチャ詳細 gacha_details テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\ガチャマスタ.xlsx
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
 Sheet							# シート名
-	gacha_details
+	ガチャ詳細
 Row								# 行範囲
 	3-
 Format							# 出力フォーマット( ヘッダー,カラム; )

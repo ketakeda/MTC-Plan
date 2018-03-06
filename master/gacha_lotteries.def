@@ -1,15 +1,16 @@
-﻿# ガチャマスタ.xlsx gacha_lotteries テーブル出力定義
+﻿# ガチャ抽選 gacha_lotteries テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\ガチャマスタ.xlsx
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
 Sheet							# シート名
-	gacha_lotteries
+	ガチャ抽選
 Row								# 行範囲
 	3-34
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$A; lot_group,$B; item_type,$C; item_id,$D
 	amount,$F; rate,$G; pickup,$H
-	new,$I; prob_up,$J; rare,$K
+	new,$I; prob_up,$J; rare,$L
+	probability,$K,string
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

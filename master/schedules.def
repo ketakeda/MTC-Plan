@@ -1,11 +1,11 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\schedules.xlsx
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
 
 Sheet							# シート名
-	Sheet1
-	
+	スケジュール
+
 Row								# 行範囲
 	4-
 
@@ -16,7 +16,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; name,$C; start_at,$D; end_at,$E
+	id,$B; name,$C; start_at,$D,DateTime; end_at,$E,DateTime
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

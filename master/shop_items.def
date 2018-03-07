@@ -1,4 +1,3 @@
-# MEMO: スケジュールに対応した変更が必要
 # ショップ テーブル出力定義
 
 inputFile						# 入力ファイル
@@ -18,7 +17,7 @@ Format							# 出力フォーマット
 	rotation_id,$D; item_type,$E
 	item_id,$F; amount,$G
 	pay_type,$H; price,$I
-	max_stock,$J; start_at,$K,DateTime; end_at,$L,DateTime
+	max_stock,$J; schedule_id,$K
 
 UTF8BOM							# UTF-8 BOM 有無設定
 	false

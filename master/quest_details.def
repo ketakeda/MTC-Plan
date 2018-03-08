@@ -14,8 +14,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$C
 
 Format							# 出力フォーマット
-	id,$B; quest_id,$J; headline,$C
-	body,$D
+	id,$B; quest_id,$J
 	action_type1,$K; action_id1,$L; condition_count1,$F
 	action_type2,$M; action_id2,$N; condition_count2,$G
 	action_type3,$O; action_id3,$P; condition_count3,$H

@@ -15,7 +15,8 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 Format							# 出力フォーマット
 	id,$B; deal_id,$C
 	item_type,$D; item_id,$E
-	amount,$F; over_type,$G
+	item_sub_id,$F
+	amount,$G; over_type,$H
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

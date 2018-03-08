@@ -1,24 +1,26 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\monster_skills.xlsx
+	${MTC-Developer}\plan\data\MTC 特技.xlsx
 
 Sheet							# シート名
-	Sheet1
+	妖怪と特技
 	
 Row								# 行範囲
-	4-
+	5-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	3
+	2
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; monster_id,$C; skill_type,$D; skill_id1,$E; skill_lv1,$F
-	skill_id2,$G; skill_lv2,$H; skill_id3,$I; skill_lv3,$J
-	skill_id4,$K; skill_lv4,$L
+	id,$B; monster_id,$C; skill_type,$E 
+	skill_id1,$G; skill_lv1,$H
+	skill_id2,$J; skill_lv2,$K
+	skill_id3,$M; skill_lv3,$N
+	skill_id4,$P; skill_lv4,$Q
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

@@ -18,11 +18,8 @@ Format							# 出力フォーマット
 	min_hp,$H; max_hp,$I; min_attack,$J; max_attack,$K
 	min_magic,$L; max_magic,$M; min_defense,$N; max_defense,$O
 	min_speed,$P; max_speed,$Q
-	attack_id,$R; magic_id,$S; haunt_id,$T; sp_skill_id,$U
-	advantage_element,$V; weak_element,$W
 	action_type,$X; tribe_type,$F; rank,$G; series,$AN
-	attack_frequency,$Y; magic_frequency,$Z; haunt_frequency,$AA; defense_frequency,$AB; sabotage_frequency,$AC
-	haunt_resist,$AD; exp,$AE; money,$AF
+	exp,$AE; money,$AF
 	growth_type,$AG; equip_box,$AI
 	favorite_food_kind,$AJ; unfavorite_food_kind,$AK
 	base_rate_type,$AH

@@ -1,11 +1,11 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\login_bonuses.xlsx
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
 
 Sheet							# シート名
-	Sheet1
-	
+	ログボ
+
 Row								# 行範囲
 	4-
 
@@ -13,7 +13,7 @@ HeaderDefRow					# ヘッダー判定に使用する行
 	3
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$B
+	$A
 
 Format							# 出力フォーマット
 	id,$B; type,$C; name,$D; order,$E; schedule_id,$F

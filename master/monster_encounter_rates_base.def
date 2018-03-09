@@ -1,27 +1,27 @@
-#　MEMO: 取り込み時に返還が必要
+#
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\monster_encounter_rates_base.xlsx
+	${MTC-Developer}\plan\data\MTC リスト マップ配置.xls
 
 Sheet							# シート名
-	Sheet1
+	monster_encounter_rates
 	
 Row								# 行範囲
-	4-
+	5-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	3
+	1
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$B
+	$A
 
 Format							# 出力フォーマット
-	area_code,$B
-	monster_id_1,$C; monster_weight_1,$D
-	monster_id_2,$E; monster_weight_2,$F
-	monster_id_3,$G; monster_weight_3,$H
-	monster_id_4,$I; monster_weight_4,$J
-	monster_id_5,$K; monster_weight_5,$L
+	area_code,$A
+	monster_id_1,$F; monster_weight_1,$G
+	monster_id_2,$H; monster_weight_2,$I
+	monster_id_3,$J; monster_weight_3,$K
+	monster_id_4,$L; monster_weight_4,$M
+	monster_id_5,$N; monster_weight_5,$O
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

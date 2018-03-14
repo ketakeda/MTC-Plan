@@ -1,0 +1,29 @@
+﻿# 装備アクセサリー テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\降臨ボス\advent_events.xlsx
+
+Sheet							# シート名
+	advent_events
+	
+Row								# 行範囲
+	3-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	2
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; schedule_id,$C; moving_cycle,$D
+	advent_boss_monster_1_id,$E
+	advent_boss_monster_2_id,$F
+	advent_boss_monster_3_id,$G
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/advent_events.csv
+
+Conv
+

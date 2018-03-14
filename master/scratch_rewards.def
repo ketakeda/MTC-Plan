@@ -7,10 +7,10 @@ Sheet							# シート名
 	スクラッチ報酬
 	
 Row								# 行範囲
-	4-
+	5-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	3
+	4
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B

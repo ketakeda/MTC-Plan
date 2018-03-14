@@ -1,11 +1,11 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\charge_shops.xlsx
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
 
 Sheet							# シート名
-	Sheet1
-	
+	課金ショップ
+
 Row								# 行範囲
 	4-
 
@@ -16,9 +16,11 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; name,$C; price,$D; stone_amount,$E
-	reward_deal_id,$F; order,$G; android_product_id,$H; ios_product_id,$I
-	limit_type,$J; limit_time,$K; banner,$L; schedule_id,$M
+	id,$B; name,$E; type,$C; price,$F; stone_amount,$G
+	yd_chip_id,$K
+	reward_deal_id,$L; order,$M; android_product_id,$N; ios_product_id,$O
+	limit_type,$P; limit_time,$Q; banner,$R
+	telop_type,$D; schedule_id,$H
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

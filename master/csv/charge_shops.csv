@@ -1,0 +1,9 @@
+id,name,type,price,stone_amount,yd_chip_id,reward_deal_id,order,android_product_id,ios_product_id,limit_type,limit_time,banner,telop_type,schedule_id
+1,妖怪玉1個,0,110,1,0,0,1,jp.gungho.mtc.client.product_a,jp.gungho.mtc.client.product_a,0,0,,0,1
+2,妖怪玉10個,0,540,10,0,0,2,jp.gungho.mtc.client.product_b,jp.gungho.mtc.client.product_b,0,0,,0,1
+3,妖怪玉30個＋おまけ妖怪玉5個,0,1080,30,0,5000,3,jp.gungho.mtc.client.product_c,jp.gungho.mtc.client.product_c,0,0,,0,1
+4,1回限定 妖怪玉50個,0,2160,50,0,5001,4,jp.gungho.mtc.client.product_beginner_a,jp.gungho.mtc.client.product_beginner_a,1,1,,1,1
+5,3回限定 妖怪玉50個,0,3240,50,0,5002,5,jp.gungho.mtc.client.product_limit_a,jp.gungho.mtc.client.product_limit_a,2,3,,2,7
+6,1回限定 妖怪玉80個,0,5400,80,0,5003,6,jp.gungho.mtc.client.product_popular_a,jp.gungho.mtc.client.product_popular_a,2,1,,3,7
+7,めんたいセットA,1,5400,0,0,5004,7,jp.gungho.mtc.client.product_set_a,jp.gungho.mtc.client.product_set_a,0,0,http://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_set01.png,0,1
+8,めんたいセットB,1,5400,0,0,5005,8,jp.gungho.mtc.client.product_set_b,jp.gungho.mtc.client.product_set_b,2,3,http://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_set02.png,0,7

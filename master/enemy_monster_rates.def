@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\enemy_monster_rates.xlsx
+	${MTC-Developer}\plan\data\オトモ妖怪選出.xlsx
 
 Sheet							# シート名
 	Sheet1

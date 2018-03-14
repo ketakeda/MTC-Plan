@@ -14,7 +14,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 
 Format							# 出力フォーマット
 	id,$B; type,$D; reward_deal_id,$C
-	rate,$F; start_at,$G; end_at,$H
+	rate,$F; schedule_id,$G
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

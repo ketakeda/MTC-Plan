@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\ng_word_text.xlsx
+	${MTC-Developer}\plan\data\NGワード 本文.xlsx
 
 Sheet							# シート名
 	Sheet1

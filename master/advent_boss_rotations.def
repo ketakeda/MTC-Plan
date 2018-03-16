@@ -1,10 +1,10 @@
-﻿# advent_events
+﻿# advent_boss_rotations
 
 inputFile						# 入力ファイル
 	${MTC-Developer}\plan\data\降臨ボス\advent_events.xlsx
 
 Sheet							# シート名
-	advent_events
+	advent_boss_rotations
 	
 Row								# 行範囲
 	3-
@@ -16,14 +16,15 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; schedule_id,$C; moving_cycle,$D
-	advent_boss_monster_1_id,$E
-	advent_boss_monster_2_id,$F
-	advent_boss_monster_3_id,$G
+	id,$B; advent_event_id,$C; period,$D
+	rotate_no,$E
+	advent_boss_1_area_type,$F
+	advent_boss_2_area_type,$G
+	advent_boss_3_area_type,$H
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
-	csv/advent_events.csv
+	csv/advent_boss_rotations.csv
 
 Conv
 

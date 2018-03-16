@@ -19,6 +19,7 @@ Format							# 出力フォーマット
 	id,$B; name,$C; tribe_type,$D
 	rank,$E; level,$F; hp,$G
 	attack,$H; magic,$I; defense,$J; speed,$K
+	action_type,$R
 	exp,$Y; money,$Z
 	base_rate_type,$AA; favorite_food_kind,$AB; unfavorite_food_kind,$AC
 	support_monster_1_id,$AD; support_monster_2_id,$AE; droppable_monster_id,$AF

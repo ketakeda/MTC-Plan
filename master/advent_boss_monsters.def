@@ -19,10 +19,6 @@ Format							# 出力フォーマット
 	id,$B; name,$C; tribe_type,$D
 	rank,$E; level,$F; hp,$G
 	attack,$H; magic,$I; defense,$J; speed,$K
-	attack_id,$L; magic_id,$M; haunt_id,$N
-	sp_skill_id,$O; advantage_element,$P; weak_element,$Q; action_type,$R
-	attack_frequency,$S; magic_frequency,$T; haunt_frequency,$U
-	defense_frequency,$V; sabotage_frequency,$W; haunt_resist,$X
 	exp,$Y; money,$Z
 	base_rate_type,$AA; favorite_food_kind,$AB; unfavorite_food_kind,$AC
 	support_monster_1_id,$AD; support_monster_2_id,$AE; droppable_monster_id,$AF

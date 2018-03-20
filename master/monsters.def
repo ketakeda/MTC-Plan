@@ -13,7 +13,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$D
 
 Format							# 出力フォーマット
-	id,$D; dictionary_id,$AQ
+	id,$D; dictionary_id,$AR
 	name,$E
 	min_hp,$H; max_hp,$I; min_attack,$J; max_attack,$K
 	min_magic,$L; max_magic,$M; min_defense,$N; max_defense,$O

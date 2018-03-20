@@ -1,4 +1,4 @@
-#
+# rev_geo_locations
 
 inputFile						# 入力ファイル
 	${MTC-Developer}\plan\data\rev_geo_locations.xlsx
@@ -16,7 +16,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	area_code,$B; pref_id,$C; energy_stage,$D
+	area_code,$B; pref_id,$C; energy_stage,$D; advent_area_type,$E
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

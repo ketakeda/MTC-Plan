@@ -2,18 +2,18 @@
 
 inputFile						# 入力ファイル
 	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+
 Sheet							# シート名
 	ガチャ
+
 Row								# 行範囲
-	3-6
+	3-
+
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$A; type,$B; name,$C; order,$D
 	schedule_id,$E
 	banner,$H; attention_text_id,$I; description_text_id,$J
 	stand_id,$K
-
-UTF8BOM							# UTF-8 BOM 有無設定
-	false
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

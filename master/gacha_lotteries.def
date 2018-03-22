@@ -5,7 +5,7 @@ inputFile						# 入力ファイル
 Sheet							# シート名
 	ガチャ抽選
 Row								# 行範囲
-	3-34
+	3-
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$A; lot_group,$B; item_type,$C; item_id,$D
 	amount,$F; rate,$G; pickup,$H

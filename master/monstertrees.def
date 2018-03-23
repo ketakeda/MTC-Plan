@@ -19,7 +19,7 @@ Format							# 出力フォーマット
 	type,$B; game_money,$E
 	stockable_amounts,$G; available_hours,$F
 	monster_limit,$H
-	rank_s,$I; rank_a,$J; rank_b,$L; rank_c,$L
+	rank_s,$I; rank_a,$J; rank_b,$K; rank_c,$L
 	rank_d,$M; rank_e,$N
 
 # エリアーコードデータ csv出力定義

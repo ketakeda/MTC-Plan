@@ -1,0 +1,23 @@
+﻿# 妖怪大戦 妖怪大戦スケジュール テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\妖怪大戦\妖怪大戦スケジュール.xlsx
+
+Sheet							# シート名
+	Sheet1
+Row								# 行範囲
+	4-
+
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	id,$B; monster_id,$C; pref_id,$D
+	latitude,$E; longitude,$F
+	tribe_type1,$G; tribe_type2,$H
+	max_life,$I; battle_end_at,$J,DateTime
+	schedule_id,$B
+	general_reward_pattern_id,$N; local_reward_pattern_id,$O; personal_reward_pattern_id,$P
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/great_wars.csv
+Conv
+

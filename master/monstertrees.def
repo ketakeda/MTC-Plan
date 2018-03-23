@@ -1,25 +1,26 @@
-#
+# MTC リスト 妖怪の木.xlsx
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\monstertrees.xlsx
+	${MTC-Developer}\plan\data\MTC リスト 妖怪の木.xlsx
 
 Sheet							# シート名
-	Sheet1
+	妖怪の木の種類
 	
 Row								# 行範囲
-	4-
+	5-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	3
+	4
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	type,$B; name,$C; kana,$D; game_money,$E
-	stockable_amounts,$F; available_hours,$G
-	rank_s,$H; rank_a,$I; rank_b,$J; rank_c,$K
-	rank_d,$L; rank_e,$M
+	type,$B; game_money,$E
+	stockable_amounts,$G; available_hours,$F
+	monster_limit,$H
+	rank_s,$I; rank_a,$J; rank_b,$L; rank_c,$L
+	rank_d,$M; rank_e,$N
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

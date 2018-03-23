@@ -1,16 +1,16 @@
 ﻿# 妖怪の木マスタ.xlsx テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\妖怪の木マスタ.xlsx
+	${MTC-Developer}\plan\data\MTC リスト 妖怪の木.xlsx
 
 Sheet							# シート名
-	tree_monster_rank_rates
-	
+	妖怪の木_元気度マスタ
+
 Row								# 行範囲
-	6-
+	5-
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$E
+	$B
 
 Format							# 出力フォーマット
 	id,$B; health_low,$C; health_high,$D

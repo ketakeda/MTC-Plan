@@ -9,7 +9,7 @@ Row								# 行範囲
 	4-
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
-	id,$B; monster_id,$C; pref_id,$D
+	id,$B; name,$B; monster_id,$C; pref_id,$D
 	latitude,$E; longitude,$F
 	tribe_type1,$G; tribe_type2,$H
 	max_life,$I; battle_end_at,$J,DateTime

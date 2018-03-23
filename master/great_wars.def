@@ -13,7 +13,7 @@ Format							# 出力フォーマット( ヘッダー,カラム; )
 	latitude,$E; longitude,$F
 	tribe_type1,$G; tribe_type2,$H
 	max_life,$I; battle_end_at,$J,DateTime
-	schedule_id,$B
+	schedule_id,$K
 	general_reward_pattern_id,$N; local_reward_pattern_id,$O; personal_reward_pattern_id,$P
 
 # エリアーコードデータ csv出力定義

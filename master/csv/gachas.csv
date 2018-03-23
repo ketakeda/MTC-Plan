@@ -6,3 +6,4 @@ id,type,name,order,schedule_id,banner,attention_text_id,description_text_id,stan
 5,2,期間設定検証用ガシャA,5,19,gasha_banner_00004.png,3,6,3
 6,2,期間設定検証用ガシャB,6,20,gasha_banner_00005.png,3,6,3
 7,2,期間設定検証用ガシャC,7,21,gasha_banner_00006.png,3,6,3
+8,4,チュートリアルガシャ,1,1,gasha_banner_00007.png,4,5,2

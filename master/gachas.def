@@ -1,7 +1,7 @@
 # ガチャ gachas テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+	${MTC-Developer}\plan\data\MTC リスト DB ガチャ.xlsx
 
 Sheet							# シート名
 	ガチャ

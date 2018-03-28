@@ -7,7 +7,7 @@ Sheet							# シート名
 	報酬
 
 Row								# 行範囲
-	5-545
+	5-
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B

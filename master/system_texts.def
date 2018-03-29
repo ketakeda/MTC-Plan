@@ -1,22 +1,22 @@
-# MEMO: 管理画面側のエラー
+# ガチャ文言
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\system_texts.xlsx
+	${MTC-Developer}\plan\data\MTC リスト DB ガチャ.xlsx
 
 Sheet							# シート名
-	Sheet1
-	
+	texts
+
 Row								# 行範囲
-	4-
+	3-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	3
+	2
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$B
+	$A
 
 Format							# 出力フォーマット
-	id,$B; text_id,$C; type,$D; body,$E
+	id,$A; text_id,$B; type,$C; body,$D
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

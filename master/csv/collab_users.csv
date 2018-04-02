@@ -1,0 +1,4 @@
+id,collab_id,mail_title,mail_body,item_type,item_id,item_option,amount
+1,1,16,16,6,1000,0,1
+2,1,16,16,8,0,0,1000
+3,2,16,17,6,1800,0,1

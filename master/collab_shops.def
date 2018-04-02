@@ -1,0 +1,23 @@
+﻿# コインデータ テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+Sheet							# シート名
+	wifiコラボショップリスト
+Row								# 行範囲
+	4-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	id,$B; collab_id,$C; latitude,$D; longitude,$E
+	name,$F; comment,$G
+	open_time,$H; close_time,$I
+	ip_address,$I
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/collab_shops.csv
+Conv
+

@@ -17,6 +17,6 @@ Format							# 出力フォーマット( ヘッダー,カラム; )
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
-	csv/collab_users.csv
+	csv/collab_items.csv
 Conv
 

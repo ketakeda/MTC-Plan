@@ -9,12 +9,12 @@ Row								# 行範囲
 	4-
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
-	id,$B; name,$B; monster_id,$C; pref_id,$D
-	latitude,$E; longitude,$F
-	tribe_type1,$G; tribe_type2,$H
-	max_life,$I; battle_end_at,$J,DateTime
-	schedule_id,$K
-	general_reward_pattern_id,$N; local_reward_pattern_id,$O; personal_reward_pattern_id,$P
+	id,$B; monster_id,$C; monster_scale,$D; area_code,$E
+	latitude,$F; longitude,$G
+	tribe_type1,$H; tribe_type2,$I; max_life,$J
+	battle_end_at,$K,DateTime
+	schedule_id,$L
+	all_reward_pattern_id,$O; area_reward_pattern_id,$P; personal_reward_pattern_id,$Q
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

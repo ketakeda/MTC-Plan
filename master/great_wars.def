@@ -13,7 +13,7 @@ Format							# 出力フォーマット( ヘッダー,カラム; )
 	# dead_motion
 	down_motion_no,$F
 	# dead_frame
-	down_stop_frame,$G
+	down_stop_flame,$G
 	area_code,$H
 	latitude,$I; longitude,$J
 	tribe_type1,$K; tribe_type2,$L; max_life,$M

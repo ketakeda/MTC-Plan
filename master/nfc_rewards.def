@@ -1,0 +1,26 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\nfc_rewards.xlsx
+
+Sheet							# シート名
+	nfc_rewards
+	
+Row								# 行範囲
+	2-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	1
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; reward_deal_id,$B
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/nfc_rewards.csv
+
+Conv
+

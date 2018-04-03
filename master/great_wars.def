@@ -10,7 +10,10 @@ Row								# 行範囲
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$B; monster_id,$C; monster_scale1,$D; monster_scale2,$E
-	dead_motion,$F;	dead_frame,$G
+	# dead_motion
+	down_motion_no,$F
+	# dead_frame
+	down_stop_frame,$G
 	area_code,$H
 	latitude,$I; longitude,$J
 	tribe_type1,$K; tribe_type2,$L; max_life,$M

@@ -11,7 +11,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
-	id,$B; collab_id,$C; mail_title,$D; mail_body,$E
+	id,$B; collab_id,$C; mail_title_id,$D; mail_body_id,$E
 	item_type,$F; item_id,$G; item_option,$H
 	amount,$I
 

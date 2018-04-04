@@ -1,0 +1,18 @@
+# yd_chips
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\yd_chips.xlsx
+
+Sheet							# シート名
+	Sheet1
+
+Row								# 行範囲
+	4-
+
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	id,$B; type,$C; name,$D; term_hour,$E
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/yd_chips.csv
+Conv

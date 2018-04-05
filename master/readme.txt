@@ -53,6 +53,6 @@ Format
 
 3) マスターデータコンバート
 
-> bin\MasterConv foods.def
+> bin\MasterConv def\foods.def
 
 

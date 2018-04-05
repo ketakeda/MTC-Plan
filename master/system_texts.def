@@ -1,7 +1,7 @@
 # ガチャ文言
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\MTC リスト DB ガチャ.xlsx
+	${MTC-Developer}\plan\data\system_texts.xlsx
 
 Sheet							# シート名
 	texts

@@ -8,7 +8,7 @@ Sheet							# シート名
 Row								# 行範囲
 	3-
 Format							# 出力フォーマット( ヘッダー,カラム; )
-	id,$A; gacha_id,$B; lot_group,$C; play_time,$D
+	id,$A; name,$A; gacha_id,$B; lot_group,$C; play_time,$D
 	sub_lot_group,$E; sub_lot_play_time,$F; pay_type,$G
 	coin_id,$H; price,$I; limit_type,$J; limit_time,$K
 

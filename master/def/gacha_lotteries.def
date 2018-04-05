@@ -8,7 +8,7 @@ Sheet							# シート名
 Row								# 行範囲
 	3-
 Format							# 出力フォーマット( ヘッダー,カラム; )
-	id,$A; lot_group,$B; item_type,$C; item_id,$D
+	id,$A; lot_group,$B; group_name,$A; item_type,$C; item_id,$D
 	amount,$F; rate,$G; pickup,$H
 	new,$I; prob_up,$J; rare,$L
 	probability,$K,string

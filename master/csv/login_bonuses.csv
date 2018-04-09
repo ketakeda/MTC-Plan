@@ -1,6 +1,8 @@
 id,type,name,order,schedule_id,logo_file_name,window_file_name,sheet_file_name
-1,1,スクラッチ,1,1,,,
-2,2,通常スタンプ,2,1,loginbonus_logo_normal001,loginbonus_window_normal001,loginbonus_sheet_normal001
-3,3,スタートダッシュスタンプ,3,1,loginbonus_logo_beginner001,loginbonus_window_beginner001,loginbonus_sheet_beginner001
-4,4,イベントスタンプ,4,1,loginbonus_logo_event001,loginbonus_window_event001,loginbonus_sheet_event001
-5,4,イベントスタンプ4段,5,1,loginbonus_logo_event001,loginbonus_window_event001,loginbonus_sheet_event001
+1,1,スクラッチ,1,70002,,,
+2,2,通常スタンプ,2,70002,loginbonus_logo_normal001,loginbonus_window_normal001,loginbonus_sheet_normal001
+3,3,スタートダッシュスタンプ,3,70002,loginbonus_logo_beginner001,loginbonus_window_beginner001,loginbonus_sheet_beginner001
+4,4,イベントスタンプ,4,70002,loginbonus_logo_event001,loginbonus_window_event001,loginbonus_sheet_event001
+5,4,イベントスタンプ4段,5,70002,loginbonus_logo_event001,loginbonus_window_event001,loginbonus_sheet_event001
+6,3,スタートダッシュスタンプ02,3,70001,loginbonus_logo_beginner001,loginbonus_window_beginner001,loginbonus_sheet_beginner001
+7,4,イベントスタンプ03,4,70001,loginbonus_logo_event001,loginbonus_window_event001,loginbonus_sheet_event001

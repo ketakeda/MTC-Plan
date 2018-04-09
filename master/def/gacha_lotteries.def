@@ -8,10 +8,10 @@ Sheet							# シート名
 Row								# 行範囲
 	3-
 Format							# 出力フォーマット( ヘッダー,カラム; )
-	id,$A; lot_group,$B; group_name,$A; item_type,$C; item_id,$D
-	amount,$F; rate,$G; pickup,$H
-	new,$I; prob_up,$J; rare,$L
-	probability,$K,string
+	id,$A; lot_group,$B; group_name,$C; item_type,$D; item_id,$E
+	item_option,$F; amount,$G; rate,$H; pickup,$I
+	new,$J; prob_up,$K; rare,$M
+	probability,$L,string
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

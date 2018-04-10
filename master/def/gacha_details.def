@@ -13,9 +13,9 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$A
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
-	id,$A; name,$A; gacha_id,$B; lot_group,$C; play_time,$D
-	sub_lot_group,$E; sub_lot_play_time,$F; pay_type,$G
-	coin_id,$H; price,$I; limit_type,$J; limit_time,$K
+	id,$A; name,$B; gacha_id,$C; lot_group,$D; play_time,$E
+	sub_lot_group,$F; sub_lot_play_time,$G; pay_type,$H
+	coin_id,$I; price,$J; limit_type,$K; limit_time,$L
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

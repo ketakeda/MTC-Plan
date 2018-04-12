@@ -16,9 +16,9 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; skill_id,$D; level,$G
-	initial_effect,$K; max_effect_scale,$N; level_adjust,$O
-	ceiling_effect,$P; calc_type,$L; ceiling_value,$Q
+	id,$B; skill_id,$C; level,$E
+	initial_effect,$I; max_effect_scale,$L; level_adjust,$M
+	ceiling_effect,$N; calc_type,$J; ceiling_value,$O
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

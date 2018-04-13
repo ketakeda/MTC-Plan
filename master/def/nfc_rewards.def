@@ -16,7 +16,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; reward_deal_id,$C
+	id,$B; name,$C; reward_deal_id,$D; rarity,$E
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

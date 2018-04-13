@@ -1,10 +1,10 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\item_encounter_rates.xlsx
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
 
 Sheet							# シート名
-	Sheet1
+	マップドロップ
 	
 Row								# 行範囲
 	4-

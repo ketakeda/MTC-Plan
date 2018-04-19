@@ -17,11 +17,11 @@ Format							# 出力フォーマット( ヘッダー,カラム; )
 	area_code,$J
 	latitude,$K; longitude,$L
 	tribe_type1,$M; tribe_type2,$N; max_life,$O
-	battle_start_at,$P,DateTime
 	battle_end_at,$Q,DateTime
 	schedule_id,$R
 	all_reward_pattern_id,$U; area_reward_pattern_id,$V; personal_reward_pattern_id,$W
-	prev_great_war_id,$X
+#	battle_start_at,$P,DateTime
+#	prev_great_war_id,$X
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

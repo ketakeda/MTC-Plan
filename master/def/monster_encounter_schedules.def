@@ -1,22 +1,24 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\monster_encounter_schedules.xlsx
+	${MTC-Developer}\plan\data\妖怪出現スケジュールマスタ.xlsx
 
 Sheet							# シート名
-	Sheet1
+	本番用
 	
 Row								# 行範囲
-	4-
+	2-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	3
+	1
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; start_time_min,$C; start_time_max,$D; duration_min,$E; duration_max,$F
+	id,$B;
+	start_time_min,$C,DateTime; start_time_max,$D,DateTime
+	duration_min,$E; duration_max,$F
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

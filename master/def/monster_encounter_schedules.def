@@ -1,16 +1,16 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\妖怪出現スケジュールマスタ.xlsx
+	${MTC-Developer}\plan\data\monster_encounter_schedules.xlsx
 
 Sheet							# シート名
-	本番用
+	Sheet1
 	
 Row								# 行範囲
-	2-
+	4-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	1
+	3
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B

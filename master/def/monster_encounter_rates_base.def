@@ -22,6 +22,9 @@ Format							# 出力フォーマット
 	monster_id_3,$J; monster_weight_3,$K
 	monster_id_4,$L; monster_weight_4,$M
 	monster_id_5,$N; monster_weight_5,$O
+	monster_id_6,$P; monster_weight_6,$Q
+	monster_id_7,$W; monster_weight_7,$S
+	monster_id_8,$T; monster_weight_8,$U
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

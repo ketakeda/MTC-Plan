@@ -7,16 +7,16 @@ Sheet							# シート名
 	Sheet1
 	
 Row								# 行範囲
-	4-
+	2-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	3
+	1
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$B
+	$A
 
 Format							# 出力フォーマット
-	area_code,$B; pref_id,$C; region_id,$D; energy_stage,$E; advent_area_type,$F
+	area_code,$A; pref_id,$B; region_id,$C; energy_stage,$D; advent_area_type,$E
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

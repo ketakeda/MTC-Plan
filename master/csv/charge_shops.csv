@@ -15,4 +15,4 @@ id,name,type,price,stone_amount,yd_chip_id,reward_deal_id,order,android_product_
 14,YDチップ,2,240,0,3,0,14,jp.gungho.yww_and_ydchip_a,jp.gungho.yww_ios_ydchip_A,0,0,https://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_ydchip.png,0,12
 15,妖怪セット A,1,2000,10,0,5010,15,jp.gungho.yww_and_event_set_a,jp.gungho.yww_ios_event_set_A,0,0,https://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_set01.png,0,60001
 16,妖怪セット B,1,2000,10,0,5020,16,jp.gungho.yww_and_event_set_b,jp.gungho.yww_ios_event_set_B,0,0,https://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_set02.png,0,60001
-16,妖怪セット C,1,2000,10,0,5020,17,jp.gungho.yww_and_event_set_c,jp.gungho.yww_ios_event_set_C,0,0,https://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_set02.png,0,60001
+17,妖怪セット C,1,2000,10,0,5020,17,jp.gungho.yww_and_event_set_c,jp.gungho.yww_ios_event_set_C,0,0,https://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_set02.png,0,60001

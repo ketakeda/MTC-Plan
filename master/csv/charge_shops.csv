@@ -12,7 +12,7 @@ id,name,type,price,stone_amount,yd_chip_id,reward_deal_id,order,android_product_
 11,初心者応援 妖怪玉 120個,0,3800,120,0,5003,11,jp.gungho.yww_and_youkaidama_sp_e,jp.gungho.yww_ios_youkaidama_sp_E,1,1,,1,1
 12,初心者応援 妖怪玉 170個,0,5000,170,0,5004,12,jp.gungho.yww_and_youkaidama_sp_f,jp.gungho.yww_ios_youkaidama_sp_F,1,1,,1,1
 13,たっぷり 妖怪玉 200個,0,9800,200,0,5005,13,jp.gungho.yww_and_youkaidama_sp_g,jp.gungho.yww_ios_youkaidama_sp_G,2,3,,2,60002
-14,YDチップ,2,240,0,3,0,14,jp.gungho.yww_and_ydchip_a,jp.gungho.yww_ios_ydchip_A,0,0,https://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_ydchip.png,0,1
+14,YDチップ30D,2,240,0,3,0,14,jp.gungho.yww_and_ydchip_a,jp.gungho.yww_ios_ydchip_A,0,0,https://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_ydchip.png,0,12
 15,妖怪セット A,1,2000,10,0,5010,15,jp.gungho.yww_and_event_set_a,jp.gungho.yww_ios_event_set_A,0,0,https://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_set01.png,0,60001
 16,妖怪セット B,1,2000,10,0,5020,16,jp.gungho.yww_and_event_set_b,jp.gungho.yww_ios_event_set_B,0,0,https://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_set02.png,0,60001
 17,妖怪セット C,1,2000,10,0,5020,17,jp.gungho.yww_and_event_set_c,jp.gungho.yww_ios_event_set_C,0,0,https://mtc-development-depot.s3.amazonaws.com/banner/set/shop_yokaidama_image_set02.png,0,60001

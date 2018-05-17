@@ -1,0 +1,22 @@
+# accumulated_actions テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+
+Sheet							# シート名
+	accumulated_actions
+
+Row								# 行範囲
+	5-
+
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	action_type,$B; action_id,$C; condition_type,$D
+	icon_id,$E; title_id,$F; body_id,$G
+	quest_type_condition,$H; quest_text,$I
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/accumulated_actions.csv
+
+Conv
+

@@ -1,7 +1,7 @@
 id,type,name,order,schedule_id,banner,attention_text_id,description_text_id,stand_id
 1,1,コインガシャ,4,1,gasha_banner_00001.png,100001,200001,1
 2,2,妖怪ガシャ,3,1,gasha_banner_00002.png,100002,200002,2
-3,2,イベントガシャ,2,1,gasha_banner_00003.png,100003,200002,3
+3,2,イベントガシャ,2,1,gasha_banner_00003.png,100002,200002,3
 4,3,スタートダッシュSPガシャ,1,1,gasha_banner_00003.png,100003,200002,2
 5,2,期間設定検証用ガシャA,5,19,gasha_banner_00004.png,100003,200002,3
 6,2,期間設定検証用ガシャB,6,20,gasha_banner_00005.png,100003,200002,3

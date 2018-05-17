@@ -1,26 +1,26 @@
-# rev_geo_locations
+# great_war_ranking_ignores
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\rev_geo_locations.xlsx
+	${MTC-Developer}\plan\data\妖怪大戦\妖怪大戦チートユーザー除外リスト.xlsx
 
 Sheet							# シート名
 	Sheet1
 	
 Row								# 行範囲
-	2-
+	4-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	1
+	3
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$A
 
 Format							# 出力フォーマット
-	area_code,$A; pref_id,$B; region_id,$C; energy_stage,$D; advent_area_type,$E
+	id,$A; great_war_id,$B; user_id,$C; cheat_status,$D
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル
-	csv/rev_geo_locations.csv
+	csv/great_war_ranking_ignores.csv
 
 Conv
 

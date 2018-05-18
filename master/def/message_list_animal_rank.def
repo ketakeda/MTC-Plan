@@ -1,0 +1,25 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Program\メッセージリスト\MessageList.xlsx
+
+Sheet							# シート名
+	Ab階級
+
+Row								# 行範囲
+	15-34
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$G
+
+Format							# 出力フォーマット
+	body,$G
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/message_list_animal_rank.csv
+
+Conv

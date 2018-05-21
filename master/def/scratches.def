@@ -16,7 +16,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; login_bonus_id,$C; scratch_max,$D; daily_special_prize_max,$E
+	id,$B; login_bonus_id,$C; scratch_max,$D
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

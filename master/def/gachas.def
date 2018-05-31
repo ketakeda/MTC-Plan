@@ -12,8 +12,8 @@ Row								# 行範囲
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$A; type,$B; name,$C; order,$D
 	schedule_id,$E
-	banner,$H; attention_text_id,$I; description_text_id,$J
-	stand_id,$K
+	banner,$F; attention_text_id,$G; description_text_id,$H
+	stand_id,$I
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

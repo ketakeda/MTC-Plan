@@ -2,5 +2,5 @@ id,type,name,order,schedule_id,banner,attention_text_id,description_text_id,stan
 1,4,チュートリアルガシャ,1,1,gasha_tutorial.png,100004,200004,2
 100001,1,コインガシャ,201,1,gasha_coin.png,100001,200001,1
 300001,2,妖怪ガシャ,101,1,gasha_itumono.png,100002,200002,2
-500001,2,リリース記念!ピックアップ妖怪ガシャ スターティング,51,1,gasha_event.png,100002,200005,2
-500002,2,リリース記念!ピックアップ妖怪ガシャ ビギニング,52,1,gasha_event.png,100002,200005,2
+500001,3,リリース記念!超妖怪ガシャ スターティング,51,1,gasha_event.png,100002,200005,2
+500002,3,リリース記念!超妖怪ガシャ ビギニング,52,1,gasha_event.png,100002,200005,2

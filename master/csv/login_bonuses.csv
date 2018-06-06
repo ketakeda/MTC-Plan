@@ -7,3 +7,5 @@ id,type,name,order,schedule_id,logo_file_name,window_file_name,sheet_file_name
 6,3,スタートダッシュスタンプ02,3,99999,loginbonus_logo_beginner001,loginbonus_window_beginner001,loginbonus_sheet_beginner001
 7,4,イベントスタンプ03,4,99999,loginbonus_logo_event001,loginbonus_window_event001,loginbonus_sheet_event001
 8,4,イベントスタンプ04,6,99999,loginbonus_logo_event001,loginbonus_window_event001,loginbonus_sheet_event001
+201807,2,カレンダー,1,100001,loginbonus_logo_normal001,loginbonus_window_normal001,loginbonus_sheet_normal001
+300001,3,SDash妖怪玉旅するコマさん,2,100001,loginbonus_logo_beginner001,loginbonus_window_beginner001,loginbonus_sheet_beginner001

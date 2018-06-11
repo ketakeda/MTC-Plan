@@ -7,7 +7,7 @@ Sheet							# シート名
 	たべものリスト
 
 Row								# 行範囲
-	6-149
+	6-148
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$D; seq,$Q; name,$R; type,$G

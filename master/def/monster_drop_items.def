@@ -10,7 +10,7 @@ Row								# 行範囲
 	6-
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$C
+	$D
 
 Format							# 出力フォーマット
 	id,$C; monster_id,$D

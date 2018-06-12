@@ -1,7 +1,7 @@
 # 特技
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\MTC 特技.xlsx
+	${MTC-Developer}\Master\1.0.1\current\data\MTC 特技.xlsx
 
 Sheet							# シート名
 	特技リスト

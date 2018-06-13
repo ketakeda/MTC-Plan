@@ -1,0 +1,22 @@
+id,dialog_id,page,type,view_area,os,available,publish_at,close_at,version,display_pattern,link_url,order,title,material_type,material_url,body,button_1_text,button_1_type,button_2_text,button_2_type,button_3_text,button_3_type
+7,6,1,2,3,3,1,2018/05/01 18:00:00,2018/06/23 18:00:00,1,3,https://testyww.gungho.jp/member/,1,"",1,https://d28k1uzv6av6oj.cloudfront.net/dev1/banner/title/6a541815367cb3514da64d43d6f2affabc308cd2fce8bf029ea6351b9f3869663d0ca454402b5881667e75177b290e5cf68db65cef21535ec3fbbbc27082639d.png,"","",1,"",,"",
+6,5,1,3,1,2,0,2018/05/01 17:05:00,2018/06/20 17:05:00,1,3,"",4,お知らせ（Android）,0,"","Android版プレイヤーの皆様に
+めんたい運営チームより
+大事なお知らせです
+（テキストはここで途絶えている…）",SysClose,7,"",,"",
+5,4,1,3,1,1,0,2018/05/01 17:04:00,2018/06/20 17:04:00,1,3,"",3,お知らせ（iOS）,,"","iOS版プレイヤーの皆様に
+めんたい運営チームより
+大事なお知らせです。
+（テキストはここで途絶えている…）",SysClose,7,"",,"",
+4,3,1,1,1,3,0,2018/05/01 17:01:00,2018/06/20 17:01:00,1,3,"",2,妖怪玉ショップキャンペーン,1,https://d28k1uzv6av6oj.cloudfront.net/dev1/banner/main/eef6fce68dda0bc94e06e451a6ef0c3eab5daa42128b416b7fa09eb1e99872fc006ce11af480a7fd95e8cc6224e2fc5d58d5e07c2e121993208457948f1e8f64.png,"立春の候、皆様におかれましては
+ますますご健勝のこととお慶び申し上げます
+妖怪玉ショップでキャンペーン実施中の
+ご報告でございまする",SysClose,7,SysDetail,6,"",
+3,2,2,2,1,3,0,2018/05/01 16:54:00,2018/06/20 16:54:00,1,3,"",5,バトルチュートリアル基本編,2,https://d28k1uzv6av6oj.cloudfront.net/dev1/video/3af870b1b3d65a3d867a3776ab3df01ca98e335f467fbd6cdb512058c156f342e6468c0f3d7522312bbbb4a13cc61e7068898db2e6596dfca5c5f64ec1ce07ad/01_basic.mp4,"",SysClose,7,"",,"",
+2,2,1,1,1,3,0,2018/05/01 16:51:00,2018/06/20 16:52:00,1,3,"",5,動画で見てみよう,1,https://d28k1uzv6av6oj.cloudfront.net/dev1/banner/main/dad8a31ff520e8bfba7131aef7293d969cf2c34d9f1b051177de027e81260e85b93475d6e7f3ad927633b4a849c12fd561eee15109bfbdbf9cc2bfe1880c89e4.png,"バトルの基本チュートリアル動画を
+もう一回みてみよう！
+※動画呼び出しテスト",SysClose,7,SysMovie,8,"",0
+1,1,1,1,1,3,0,2018/05/01 00:00:00,2018/06/20 23:59:00,1,3,"",1,ガシャ更新！,1,https://d28k1uzv6av6oj.cloudfront.net/dev1/banner/main/a2beb8ab071b788caeaae4ee44206a420f0d3e39b7526cfc191bc1c03d1d1fe2a76da24e711483c8426f94033f154d1de8bb7de8c6609766ca47a45db45a4fd7.png,"妖怪ガシャが更新されました！
+なんと今回追加されたのは…あの…
+いや、あるいは伝説の…
+神秘のベールにつつまれた…",SysClose,7,0,0,SysDetail,3

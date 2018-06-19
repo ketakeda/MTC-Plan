@@ -1,7 +1,7 @@
 # 合成進化 テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\MTC リスト DBMaster.xlsx
+	${MTC-Developer}\Master\1.0.1\current\data\MTC リスト DBMaster.xlsx
 
 Sheet							# シート名
 	合成進化

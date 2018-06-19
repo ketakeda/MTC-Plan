@@ -1,7 +1,7 @@
 # yd_chips
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\yd_chips.xlsx
+	${MTC-Developer}\Master\1.0.1\current\data\yd_chips.xlsx
 
 Sheet							# シート名
 	Sheet1

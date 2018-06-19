@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\MTC リスト マップ配置.xls
+	${MTC-Developer}\Master\1.0.1\current\data\MTC リスト マップ配置.xls
 
 Sheet							# シート名
 	monster_encounter_rates

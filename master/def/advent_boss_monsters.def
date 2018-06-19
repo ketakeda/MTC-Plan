@@ -1,7 +1,7 @@
 ﻿# advent_boss_monsters
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\plan\data\降臨ボス\advent_events.xlsx
+	${MTC-Developer}\Master\1.0.1\current\data\降臨ボス\advent_events.xlsx
 
 Sheet							# シート名
 	advent_boss_monsters

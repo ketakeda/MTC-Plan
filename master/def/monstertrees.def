@@ -1,7 +1,7 @@
 # MTC リスト 妖怪の木.xlsx
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.0.1\current\data\MTC リスト 妖怪の木.xlsx
+	${MTC-Developer}\Master\1.1.0\current\data\MTC リスト 妖怪の木.xlsx
 
 Sheet							# シート名
 	妖怪の木の種類

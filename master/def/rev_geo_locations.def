@@ -1,7 +1,7 @@
 # rev_geo_locations
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.0.1\current\data\rev_geo_locations.xlsx
+	${MTC-Developer}\Master\1.1.0\current\data\rev_geo_locations.xlsx
 
 Sheet							# シート名
 	Sheet1

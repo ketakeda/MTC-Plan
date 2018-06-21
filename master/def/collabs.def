@@ -12,7 +12,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$B; schedule_id,$C; title,$D; comment,$E
-	url,$F; browser_type,$H
+	url,$F; uuid,$G; browser_type,$H
 	open_time,$I,Time; close_time,$J,Time
 	radius,$K; event_type,$L; condition_type,$M
 	recovery_num,$N; cool_time_minutes,$O

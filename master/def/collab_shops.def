@@ -14,7 +14,7 @@ Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$B; collab_id,$C; latitude,$D; longitude,$E
 	name,$F; comment,$G
 	open_time,$H,DateTime; close_time,$I,DateTime
-	ip_address,$J; proximity,$M;
+	ip_address,$J;
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

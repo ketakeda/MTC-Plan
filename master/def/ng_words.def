@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.1.0\current\data\NGワード.xlsx
+	${MTC-Developer}\Master\1.2.0\current\data\NGワード.xlsx
 
 Sheet							# シート名
 	Sheet1

@@ -7,7 +7,7 @@ Sheet							# シート名
 	スタンプ
 	
 Row								# 行範囲
-	5-
+	4-
 
 HeaderDefRow					# ヘッダー判定に使用する行
 	3

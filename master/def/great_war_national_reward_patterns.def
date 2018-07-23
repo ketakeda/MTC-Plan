@@ -1,0 +1,17 @@
+﻿# 妖怪大戦 妖怪大戦地区報酬 テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.2.0\current\data\妖怪大戦\妖怪大戦地区報酬.xlsx
+Sheet							# シート名
+	Sheet1
+Row								# 行範囲
+	4-
+
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	id,$B; pattern_id,$C; class_id,$D; reward_deal_id,$E
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/great_war_national_reward_patterns.csv
+Conv
+

@@ -14,7 +14,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 
 Format							# 出力フォーマット
 	id,$B; type,$C; title,$D
-	schedule_id,$E
+	schedule_id,$E; icon_id,$J
 
 UTF8BOM							# UTF-8 BOM 有無設定
 	false

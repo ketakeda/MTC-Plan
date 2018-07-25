@@ -1,0 +1,28 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.1.0\current\data\妖怪入手確率マスタ.xlsx
+
+Sheet							# シート名
+	Sheet1
+	
+Row								# 行範囲
+	4-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$A
+
+Format							# 出力フォーマット
+	id,$B; base_rate,$C; food_rank_rate_1,$D; 
+	food_rank_rate_2,$E; food_rank_rate_3,$F; food_rank_rate_4,$G; 
+	wanderer_spirit_rate_normal,$H; wanderer_spirit_rate_gold,$I; haunt_battle_attenuation_rate,$J;
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/monster_join_rates.csv
+
+Conv
+

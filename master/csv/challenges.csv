@@ -1,1 +1,3 @@
-id,name,monster_name,monster_id,level,base_rate_type,exp,money
+id,name,monster_name,monster_id,level,base_rate_type,get_monster_param,exp,money
+1,テスト挑戦１,,1000,25,50,,2000,30000
+2,テスト挑戦２,,166000,10,100,"{""skill_type"":1}",1,1

@@ -1,16 +1,16 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.2.0\current\data\scratches.xlsx
+	${MTC-Developer}\Master\1.2.0\current\data\MTC リスト DBMaster.xlsx
 
 Sheet							# シート名
-	Sheet1
+	スクラッチ設定
 	
 Row								# 行範囲
-	4-
+	5-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	3
+	4
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B

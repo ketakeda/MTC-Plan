@@ -20,7 +20,7 @@ Format							# 出力フォーマット
 	event_id_1,$E; monster_id_1,$F; monster_weight_1,$G
 	event_id_2,$H; monster_id_2,$I; monster_weight_2,$J
 	event_id_3,$K; monster_id_3,$L; monster_weight_3,$M
-	event_id_4,$N; monster_id_4,$O; monster_weight_4,$p
+	event_id_4,$N; monster_id_4,$O; monster_weight_4,$P
 	event_id_5,$Q; monster_id_5,$R; monster_weight_5,$S
 	event_id_6,$T; monster_id_6,$U; monster_weight_6,$V
 	event_id_7,$W; monster_id_7,$X; monster_weight_7,$Y

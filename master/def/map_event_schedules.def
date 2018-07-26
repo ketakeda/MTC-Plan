@@ -1,0 +1,27 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.2.0\current\data\イベント妖怪配置マスタ.xlsx
+
+Sheet							# シート名
+	map_event_schedules
+	
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; schedule_id,$C; map_event_time_ids,$D; day_of_weeks,$E
+	is_search,$F; is_tree,$G; name,$H; icon_id,$I
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/map_event_schedules.csv
+
+Conv
+

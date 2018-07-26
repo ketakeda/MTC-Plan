@@ -1,0 +1,36 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.2.0\current\data\MTC リスト マップイベント配置.xls
+
+Sheet							# シート名
+	map_event_monsters
+	
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	1
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$A
+
+Format							# 出力フォーマット
+	area_code,$A
+	event_id_1,$E; monster_id_1,$F; monster_weight_1,$G
+	event_id_2,$H; monster_id_2,$I; monster_weight_2,$J
+	event_id_3,$K; monster_id_3,$L; monster_weight_3,$M
+	event_id_4,$N; monster_id_4,$O; monster_weight_4,$p
+	event_id_5,$Q; monster_id_5,$R; monster_weight_5,$S
+	event_id_6,$T; monster_id_6,$U; monster_weight_6,$V
+	event_id_7,$W; monster_id_7,$X; monster_weight_7,$Y
+	event_id_8,$Z; monster_id_8,$AA; monster_weight_8,$AB
+	event_id_9,$AC; monster_id_9,$AD; monster_weight_9,$AE
+	event_id_10,$AF; monster_id_10,$AG; monster_weight_10,$AH
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/map_event_monsters.csv
+
+Conv
+

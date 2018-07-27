@@ -7,7 +7,10 @@ Sheet							# シート名
 	たべものリスト
 
 Row								# 行範囲
-	6-148
+	6-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$D; seq,$Q; name,$R; type,$G

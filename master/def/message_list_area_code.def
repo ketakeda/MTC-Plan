@@ -1,0 +1,22 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.2.0\current\data\逆GEOマスターデータ.xlsx
+
+Sheet							# シート名
+	マスター
+
+Row								# 行範囲
+	3-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	2
+
+Format							# 出力フォーマット
+	area_code,$A; pref,$B; addr_1,$E; addr_2,$G
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/message_list_area_code.csv
+
+Conv

@@ -13,10 +13,10 @@ HeaderDefRow					# ヘッダー判定に使用する行
 	3
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$G
+	$B
 
 Format							# 出力フォーマット
-	body,$G
+	id,$B; body,$G
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

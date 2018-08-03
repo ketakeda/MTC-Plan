@@ -27,6 +27,16 @@ Format							# 出力フォーマット
 	event_id_8,$Z; monster_id_8,$AA; monster_weight_8,$AB
 	event_id_9,$AC; monster_id_9,$AD; monster_weight_9,$AE
 	event_id_10,$AF; monster_id_10,$AG; monster_weight_10,$AH
+	event_id_11,$AI; monster_id_11,$AJ; monster_weight_11,$AK
+	event_id_12,$AL; monster_id_12,$AM; monster_weight_12,$AN
+	event_id_13,$AO; monster_id_13,$AP; monster_weight_13,$AQ
+	event_id_14,$AR; monster_id_14,$AS; monster_weight_14,$AT
+	event_id_15,$AU; monster_id_15,$AV; monster_weight_15,$AW
+	event_id_16,$AX; monster_id_16,$AY; monster_weight_16,$AZ
+	event_id_17,$BA; monster_id_17,$BB; monster_weight_17,$BC
+	event_id_18,$BD; monster_id_18,$BE; monster_weight_18,$BF
+	event_id_19,$BG; monster_id_19,$BH; monster_weight_19,$BI
+	event_id_20,$BJ; monster_id_20,$BK; monster_weight_20,$BL
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

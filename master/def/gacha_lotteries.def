@@ -1,7 +1,7 @@
 ﻿# ガチャ抽選 gacha_lotteries テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.2.0\current\data\MTC リスト DB ガチャ.xlsx
+	${MTC-Developer}\Master\1.3.0\current\data\MTC リスト DB ガチャ.xlsx
 
 Sheet							# シート名
 	ガチャ抽選

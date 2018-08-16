@@ -16,7 +16,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$A
 
 Format							# 出力フォーマット
-	area_code,$A; pref_id,$B; region_id,$C; energy_stage,$D; advent_area_type,$E
+	area_code,$A; pref_id,$B; region_id,$C; energy_stage,$D; advent_area_type,$E; pref,$F; addr_1,$G; addr_2,$H
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

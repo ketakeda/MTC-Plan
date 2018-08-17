@@ -1,22 +1,22 @@
 # rev_geo_locations
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.3.0\current\data\rev_geo_locations.xlsx
+	${MTC-Developer}\Master\1.3.0\current\data\逆GEOマスターデータ.xlsx
 
 Sheet							# シート名
-	Sheet1
+	マスター
 	
 Row								# 行範囲
-	2-
+	3-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	1
+	2
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$A
 
 Format							# 出力フォーマット
-	area_code,$A; pref_id,$B; region_id,$C; energy_stage,$D; advent_area_type,$E; pref,$F; addr_1,$G; addr_2,$H
+	area_code,$B; pref_id,$E; region_id,$O; energy_stage,$P; advent_area_type,$Q; pref,$C; addr_1,$F; addr_2,$H
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

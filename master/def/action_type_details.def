@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.2.0\current\data\action_type_details.xlsx
+	${MTC-Developer}\Master\1.3.0\current\data\action_type_details.xlsx
 
 Sheet							# シート名
 	Sheet1
@@ -16,7 +16,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; character_1,$C; character_2,$D; character_3,$E;
+	id,$B; character_1,$C; character_2,$D; character_3,$E; character_4,$F;
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

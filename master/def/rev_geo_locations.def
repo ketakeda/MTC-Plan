@@ -1,7 +1,7 @@
 # rev_geo_locations
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.3.0\current\data\逆GEOマスターデータ.xlsx
+	${MTC-Developer}\Master\1.4.0\current\data\逆GEOマスターデータ.xlsx
 
 Sheet							# シート名
 	マスター

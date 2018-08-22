@@ -13,7 +13,7 @@ HeaderDefRow					# ヘッダー判定に使用する行
 	2
 
 Format							# 出力フォーマット
-	area_code,$A; pref,$B; addr_1,$E; addr_2,$G
+	area_code,$B; pref,$C; addr_1,$F; addr_2,$H
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

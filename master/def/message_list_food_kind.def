@@ -1,0 +1,22 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.2.0\current\message\MessageList.xlsx
+
+Sheet							# シート名
+	Abたべもの種別
+
+Row								# 行範囲
+	4-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
+
+Format							# 出力フォーマット
+	body,$G
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/message_list_food_kind.csv
+
+Conv

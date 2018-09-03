@@ -17,7 +17,7 @@ Format							# 出力フォーマット
 	action_type1,$K; action_id1,$L; condition_count1,$F
 	action_type2,$M; action_id2,$N; condition_count2,$G
 	action_type3,$O; action_id3,$P; condition_count3,$H
-	unlock_id,$Q; cooldown,$I; reward_deal_id,$R
+	unlock_id,$Q; cooldown,$I; reward_deal_id,$R; unlock_user_level,$U 
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

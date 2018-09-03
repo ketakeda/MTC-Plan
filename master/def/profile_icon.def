@@ -1,0 +1,21 @@
+# profile_icon
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.4.0\current\data\profile_item.xlsx
+
+Sheet							# シート名
+	profile_icons(顔アイコン)
+
+Row								# 行範囲
+	4-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$A
+
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	id,$B; body,$C; unlock_beginning,$D
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/profile_icon.csv
+Conv

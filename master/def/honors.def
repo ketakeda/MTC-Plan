@@ -16,11 +16,12 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; name,$C; caption,$D; unlock_type,$E
-	unlock_data,$F
-	unlock_area_count,$G; unlock_pref_count,$H; cond_type,$I
-	cond_data,$J
-	cond_area_count,$K; cond_pref_count,$L; label,$M
+	id,$B; type,$C;
+	name,$D; caption,$E; unlock_type,$F
+	unlock_data,$G
+	unlock_area_count,$H; unlock_pref_count,$I; cond_type,$J
+	cond_data,$K
+	cond_area_count,$L; cond_pref_count,$M; label,$N
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

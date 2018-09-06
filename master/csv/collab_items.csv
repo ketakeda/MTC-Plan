@@ -87,4 +87,4 @@ id,collab_id,mail_title_id,mail_body_id,item_type,item_id,item_option,amount
 86,10037,1009,2000,6,152000,"{""name_prefix_type"":2, ""name_prefix_value"":3005, ""skill_type"":1}",1
 87,10038,1009,2000,6,152000,"{""name_prefix_type"":2, ""name_prefix_value"":3006, ""skill_type"":1}",1
 88,10039,1000,2000,6,152000,"{""skill_type"":1}",1
-89,10044,1010,2000,1,100001,"",1
+89,10044,1010,2000,13,0,"",1

@@ -1,2 +1,3 @@
-type,game_money,stockable_amounts,available_hours,monster_limit,rank_s,rank_a,rank_b,rank_c,rank_d,rank_e
-1,1000,4,72,1,0,0,0,0,0,0
+payment_type,game_money,charged_money,available_hours,stockable_amounts,monster_limit,encounter_interval_min,exist_life_span,ignore_cool_time,rank_s,rank_a,rank_b,rank_c,rank_d,rank_e
+1,1000,0,72,4,1,59,0,0,0,0,0,0,0,0
+2,0,1,72,1,1,59,1,1,0,0,0,0,0,0

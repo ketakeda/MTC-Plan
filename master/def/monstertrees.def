@@ -16,6 +16,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
+	type,$B
 	payment_type,$E
 	game_money,$F
 	charged_money,$G

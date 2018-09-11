@@ -17,17 +17,16 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 
 Format							# 出力フォーマット
 	type,$B
-	payment_type,$E
-	game_money,$F
-	charged_money,$G
-	available_hours,$H
-	stockable_amounts,$I
-	monster_limit,$J
-	encounter_interval_min,$K
-	exist_life_span,$L
-	ignore_cool_time,$M
-	rank_s,$N; rank_a,$O; rank_b,$P; rank_c,$Q
-	rank_d,$R; rank_e,$S
+	pay_type,$E
+	price,$F
+	available_hours,$G
+	stockable_amounts,$H
+	monster_limit,$I
+	encounter_interval_min,$J
+	exist_life_span,$K
+	ignore_cool_time,$L
+	rank_s,$M; rank_a,$N; rank_b,$O; rank_c,$P
+	rank_d,$Q; rank_e,$R
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

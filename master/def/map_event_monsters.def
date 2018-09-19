@@ -37,6 +37,9 @@ Format							# 出力フォーマット
 	event_id_18,$BD; monster_id_18,$BE; monster_weight_18,$BF
 	event_id_19,$BG; monster_id_19,$BH; monster_weight_19,$BI
 	event_id_20,$BJ; monster_id_20,$BK; monster_weight_20,$BL
+	event_id_21,$BM; monster_id_21,$BN;monster_weight_21,$BO
+	event_id_22,$BP; monster_id_22,$BQ;monster_weight_22,$BR
+	event_id_23,$BS; monster_id_23,$BT;monster_weight_23,$BU
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

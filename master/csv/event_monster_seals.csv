@@ -1,2 +1,2 @@
-id,schedule_id,seal_1,seal_2,seal_3,seal_4,seal_5,seal_6,seal_7,seal_8
-1,200004,101000,102000,102010,103000,104000,104010,105000,105010
+id,schedule_id,name,monster_id,seal_1,seal_2,seal_3,seal_4,seal_5,seal_6,seal_7,seal_8
+1,200004,封印妖怪テスト,1000,101000,102000,102010,103000,104000,104010,105000,105010

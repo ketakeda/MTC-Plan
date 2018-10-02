@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.4.0\current\data\best_friend_battle_bonuses.xlsx
+	${MTC-Developer}\Master\1.5.0\current\data\best_friend_battle_bonuses.xlsx
 
 Sheet							# シート名
 	Sheet1

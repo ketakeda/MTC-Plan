@@ -1,0 +1,25 @@
+# イベント封印妖怪 テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.5.0\current\data\イベント封印妖怪マスタ.xlsx
+
+Sheet							# シート名
+	Sheet1
+	
+Row								# 行範囲
+	4-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; schedule_id,$C, name,$D, monster_id,$E
+	seal_1,$F; seal_2,$G; seal_3,$H; seal_4,$I
+	seal_5,$J; seal_6,$K; seal_7,$L; seal_8,$M
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/event_monster_seals.csv
+
+Conv
+

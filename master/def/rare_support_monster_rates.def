@@ -1,0 +1,23 @@
+# rare_support_monster_rates
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.5.0\current\data\レアおとも妖怪出現率マスタ.xlsx
+
+Sheet							# シート名
+	Sheet1
+	
+Row								# 行範囲
+	4-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
+
+Format							# 出力フォーマット
+	monster_id,$B; base_rate,$C
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/rare_support_monster_rates.csv
+
+Conv
+

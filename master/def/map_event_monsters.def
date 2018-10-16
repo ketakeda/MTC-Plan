@@ -37,9 +37,16 @@ Format							# 出力フォーマット
 	event_id_18,$BD; monster_id_18,$BE; monster_weight_18,$BF
 	event_id_19,$BG; monster_id_19,$BH; monster_weight_19,$BI
 	event_id_20,$BJ; monster_id_20,$BK; monster_weight_20,$BL
-	event_id_21,$BM; monster_id_21,$BN;monster_weight_21,$BO
-	event_id_22,$BP; monster_id_22,$BQ;monster_weight_22,$BR
-	event_id_23,$BS; monster_id_23,$BT;monster_weight_23,$BU
+	event_id_21,$BM; monster_id_21,$BN; monster_weight_21,$BO
+	event_id_22,$BP; monster_id_22,$BQ; monster_weight_22,$BR
+	event_id_23,$BS; monster_id_23,$BT; monster_weight_23,$BU
+	event_id_24,$BV; monster_id_24,$BW; monster_weight_24,$BX
+	event_id_25,$BY; monster_id_25,$BZ; monster_weight_25,$CA
+	event_id_26,$CB; monster_id_26,$CC; monster_weight_26,$CD
+	event_id_27,$CE; monster_id_27,$CF; monster_weight_27,$CG
+	event_id_28,$CH; monster_id_28,$CI; monster_weight_28,$CJ
+	event_id_29,$CK; monster_id_29,$CL; monster_weight_29,$CM
+	event_id_30,$CN; monster_id_30,$CO; monster_weight_30,$CP
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

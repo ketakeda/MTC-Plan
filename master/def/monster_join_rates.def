@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.5.0\current\data\妖怪入手確率マスタ.xlsx
+	${MTC-Developer}\Master\1.6.0\current\data\妖怪入手確率マスタ.xlsx
 
 Sheet							# シート名
 	Sheet1

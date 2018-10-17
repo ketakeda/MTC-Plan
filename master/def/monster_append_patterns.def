@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.5.0\current\data\monster_append_patterns.xlsx
+	${MTC-Developer}\Master\1.6.0\current\data\monster_append_patterns.xlsx
 
 Sheet							# シート名
 	Sheet1

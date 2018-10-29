@@ -16,6 +16,7 @@ Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$A; name,$B; gacha_id,$C; lot_group,$D; play_time,$E
 	sub_lot_group,$F; sub_lot_play_time,$G; pay_type,$H
 	coin_id,$I; price,$J; limit_type,$K; limit_time,$L
+	reward_deal_id,$M
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

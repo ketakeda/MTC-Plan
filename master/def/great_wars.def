@@ -11,16 +11,17 @@ Row								# 行範囲
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$B; monster_id,$C; monster_scale1,$D; monster_scale2,$E
 	tran_y1,$F
-	tran_y2,$G
-	dead_motion,$H
-	dead_frame,$I
-	area_code,$J
-	latitude,$K; longitude,$L
-	tribe_type1,$M; tribe_type2,$N; max_life,$O
-	battle_start_at,$P,DateTime
-	battle_end_at,$Q,DateTime
-	national_reward_pattern_id,$U; area_reward_pattern_id,$V; personal_reward_pattern_id,$W
-	prev_great_war_id,$X
+	tran_Y1_dead,$G
+	tran_y2,$H
+	dead_motion,$I
+	dead_frame,$J
+	area_code,$K
+	latitude,$L; longitude,$M
+	tribe_type1,$N; tribe_type2,$O; max_life,$P
+	battle_start_at,$Q,DateTime
+	battle_end_at,$R,DateTime
+	national_reward_pattern_id,$V; area_reward_pattern_id,$W; personal_reward_pattern_id,$X
+	prev_great_war_id,$Y
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

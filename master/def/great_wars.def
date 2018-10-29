@@ -11,7 +11,7 @@ Row								# 行範囲
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$B; monster_id,$C; monster_scale1,$D; monster_scale2,$E
 	tran_y1,$F
-	tran_Y1_dead,$G
+	tran_y1_dead,$G
 	tran_y2,$H
 	dead_motion,$I
 	dead_frame,$J

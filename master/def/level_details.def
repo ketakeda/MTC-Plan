@@ -16,6 +16,7 @@ Format							# 出力フォーマット
 	level,$C; required_exp,$F
 	max_hp,$G; max_best_friend,$H; max_battle_party,$I
 	closeness_bonus,$J; reward_deal_id,$L
+	bot_daily_limit,$M; bot_encounter_factor,$N
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

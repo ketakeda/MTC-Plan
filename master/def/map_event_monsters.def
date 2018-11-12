@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.6.0\current\data\MTC リスト マップイベント配置.xls
+	${MTC-Developer}\Master\1.7.0\current\data\MTC リスト マップイベント配置.xls
 
 Sheet							# シート名
 	map_event_monsters

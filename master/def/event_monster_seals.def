@@ -16,6 +16,7 @@ Format							# 出力フォーマット
 	id,$B; schedule_id,$C; name,$D; monster_id,$E
 	seal_1,$F; seal_2,$G; seal_3,$H; seal_4,$I
 	seal_5,$J; seal_6,$K; seal_7,$L; seal_8,$M
+	asset_bundle_id,$N
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

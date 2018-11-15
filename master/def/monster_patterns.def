@@ -1,22 +1,22 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.7.0\current\data\monster_patterns.xlsx
+	${MTC-Developer}\Master\1.7.0\current\data\MTC リスト DB ガチャ.xlsx
 
 Sheet							# シート名
-	Sheet1
+	monster_pattern
 	
 Row								# 行範囲
-	4-
+	2-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	3
+	1
 
 ValidationCheck					# データを有効／無効をチェックするカラム
-	$B
+	$A
 
 Format							# 出力フォーマット
-	id,$B; monster_id,$C; character,$D; level,$E; attack_lv,$E; special_attack_lv,$E; magic_lv,$E
+	id,$A; monster_id,$B; character,$C; level,$D; attack_lv,$E; special_attack_lv,$F; magic_lv,$G
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

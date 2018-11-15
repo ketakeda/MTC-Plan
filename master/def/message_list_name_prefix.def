@@ -1,10 +1,10 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.7.0\current\message\MessageList.xlsx
+	${MTC-Developer}\Master\1.7.0\current\data\profile_item.xlsx
 
 Sheet							# シート名
-	Ab敬称
+	name_suffixes（呼ばれ方）
 
 Row								# 行範囲
 	4-
@@ -12,8 +12,11 @@ Row								# 行範囲
 HeaderDefRow					# ヘッダー判定に使用する行
 	3
 
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$A
+
 Format							# 出力フォーマット
-	body,$G
+	body,$C
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

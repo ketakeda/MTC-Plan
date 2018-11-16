@@ -17,7 +17,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 
 Format							# 出力フォーマット
 	id,$B; type,$C; name,$D; order,$E; schedule_id,$F
-	logo_file_name,$G;　window_file_name,$H;　sheet_file_name,$I
+	logo_file_name,$G;　window_file_name,$H;　sheet_file_name,$I;　receipt_period,$J
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

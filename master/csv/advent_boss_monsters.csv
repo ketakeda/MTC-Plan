@@ -1,4 +1,4 @@
-id,name,tribe_type,rank,level,hp,attack,magic,defense,speed,action_type,exp,money,base_rate_type,favorite_food_kind,unfavorite_food_kind,support_monster_1_id,support_monster_2_id,droppable_monster_id,consume_cost,difficulty
+id,name,tribe_type,rank,level,hp,attack,magic,defense,speed,action_type,exp,money,base_rate_type,favorite_food_kind,unfavorite_food_kind,support_monster_1_id,support_monster_2_id,droppable_monster_id,consume_cost,difficult_type
 100001001,レッドＪ,4,5,30,300,93,27,52,105,4,61,63,7,18,23,112000,147000,480000,3,1
 100001002,レッドＪ,4,5,50,500,136,43,75,152,4,61,63,6,18,23,112000,147000,480000,5,2
 100001003,レッドＪ,4,5,70,700,179,52,104,197,4,61,63,4,18,23,112000,147000,480000,10,3

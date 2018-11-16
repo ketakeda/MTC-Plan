@@ -23,7 +23,7 @@ Format							# 出力フォーマット
 	exp,$Y; money,$Z
 	base_rate_type,$AA; favorite_food_kind,$AB; unfavorite_food_kind,$AC
 	support_monster_1_id,$AD; support_monster_2_id,$AE; droppable_monster_id,$AF
-	consume_cost,$AG; difficulty,$AH
+	consume_cost,$AG; difficult_type,$AH
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

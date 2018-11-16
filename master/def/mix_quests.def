@@ -1,0 +1,32 @@
+# クエスト種別 テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.7.0\current\data\MTC リスト DBMaster.xlsx
+
+Sheet							# シート名
+	ミックスクエスト
+
+Row								# 行範囲
+	5-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; schedule_id,$C; group_id,$D
+	display_type,$E; icon_id,$F; starting_flag,$G
+	action_type1,$H; action_id1,$I; count_type1,$J; condition_count1,$K
+	action_type2,$L; action_id2,$M; count_type2,$N; condition_count2,$O
+	action_type3,$P; action_id3,$Q; count_type3,$R; condition_count3,$S
+	required_quests,$T; required_act_type,$U; required_act_id,$V; required_cond_cnt,$W
+	random_id,$X; cooldown,$Y; period_reset_type,$Z
+	possible_period_count,$AA; possible_clear_count,$AB; reward_deal_id,$AC
+
+UTF8BOM							# UTF-8 BOM 有無設定
+	false
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/mix_quests.csv
+
+Conv

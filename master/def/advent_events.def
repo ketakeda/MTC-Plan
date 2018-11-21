@@ -20,6 +20,9 @@ Format							# 出力フォーマット
 	advent_boss_monster_1_id,$E
 	advent_boss_monster_2_id,$F
 	advent_boss_monster_3_id,$G
+	advent_boss_monster_4_id,$H
+	advent_boss_monster_5_id,$I
+	advent_boss_monster_6_id,$J
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

@@ -21,6 +21,9 @@ Format							# 出力フォーマット
 	advent_boss_1_area_type,$F
 	advent_boss_2_area_type,$G
 	advent_boss_3_area_type,$H
+	advent_boss_4_area_type,$I
+	advent_boss_5_area_type,$J
+	advent_boss_6_area_type,$K
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

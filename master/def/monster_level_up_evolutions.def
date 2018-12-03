@@ -1,7 +1,7 @@
 # レベルアップ進化 テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.7.0\current\data\MTC リスト DBMaster.xlsx
+	${MTC-Developer}\Master\1.8.0\current\data\MTC リスト DBMaster.xlsx
 
 Sheet							# シート名
 	レベルアップ進化

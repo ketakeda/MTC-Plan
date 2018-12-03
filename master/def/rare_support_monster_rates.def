@@ -1,7 +1,7 @@
 # rare_support_monster_rates
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.7.0\current\data\レアおとも妖怪出現率マスタ.xlsx
+	${MTC-Developer}\Master\1.8.0\current\data\レアおとも妖怪出現率マスタ.xlsx
 
 Sheet							# シート名
 	Sheet1

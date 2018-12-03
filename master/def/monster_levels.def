@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.7.0\current\data\monster_levels.xlsx
+	${MTC-Developer}\Master\1.8.0\current\data\monster_levels.xlsx
 
 Sheet							# シート名
 	Sheet1

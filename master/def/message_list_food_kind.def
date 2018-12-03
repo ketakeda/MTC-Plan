@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.2.0\current\message\MessageList.xlsx
+	${MTC-Developer}\Master\1.8.0\current\message\MessageList.xlsx
 
 Sheet							# シート名
 	Abたべもの種別

@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.7.0\current\data\イベント妖怪配置マスタ.xlsx
+	${MTC-Developer}\Master\1.8.0\current\data\イベント妖怪配置マスタ.xlsx
 
 Sheet							# シート名
 	map_event_schedules

@@ -1,7 +1,7 @@
 id,type,name,order,schedule_id,logo_file_name,window_file_name,sheet_file_name,receipt_period
 1,1,from1807201200to1807300359100万DL記念スクラッチ,4,400003,,,,0
 2,1,from1809141200to1809250359200万DL記念スクラッチ,4,400009,,,,0
-3,1,from1812081200to1812150359gglascratch,4,400024,,,,
+3,1,from1812081200to1812150359gglascratch,4,400024,,,,0
 201807,2,from1807040400to1808010359SDash後ログボ,1,400001,loginbonus_logo_normal001,loginbonus_window_normal001,loginbonus_sheet_normal001,0
 201808,2,from1808010400to1809010359マンスリー,1,200002,loginbonus_logo_normal001,loginbonus_window_normal001,loginbonus_sheet_normal001,0
 201809,2,from1809010400to1810010359マンスリー,1,200003,loginbonus_logo_normal001,loginbonus_window_normal001,loginbonus_sheet_normal001,0

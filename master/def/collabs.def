@@ -16,6 +16,7 @@ Format							# 出力フォーマット( ヘッダー,カラム; )
 	open_time,$I,Time; close_time,$J,Time
 	radius,$K; event_type,$L; condition_type,$M
 	recovery_num,$N; cool_time_minutes,$O
+	received_limit,$P
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

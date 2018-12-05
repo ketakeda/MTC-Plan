@@ -15,13 +15,14 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 Format							# 出力フォーマット
 	id,$B; schedule_id,$C
 	title_type,$D; title_id,$E; group_id,$F
-	display_type,$G; icon_id,$H; starting_flag,$I
-	action_type1,$J; action_id1,$K; count_type1,$L; condition_count1,$M
-	action_type2,$N; action_id2,$O; count_type2,$P; condition_count2,$Q
-	action_type3,$R; action_id3,$S; count_type3,$T; condition_count3,$U
-	required_quests,$V; required_act_type,$W; required_act_id,$X; required_cond_cnt,$Y
-	random_id,$Z; cooldown,$AA; period_reset_type,$AB
-	possible_period_count,$AC; possible_clear_count,$AD; reward_deal_id,$AE
+	accumulated_group,$G
+	display_type,$H; icon_id,$I; starting_flag,$J
+	action_type1,$K; action_id1,$L; count_type1,$M; condition_count1,$N
+	action_type2,$O; action_id2,$P; count_type2,$Q; condition_count2,$R
+	action_type3,$S; action_id3,$T; count_type3,$U; condition_count3,$V
+	required_quests,$W; required_act_type,$X; required_act_id,$Y; required_cond_cnt,$Z
+	random_id,$AA; cooldown,$AB; period_reset_type,$AC
+	possible_period_count,$AD; possible_clear_count,$AE; reward_deal_id,$AF
 
 UTF8BOM							# UTF-8 BOM 有無設定
 	false

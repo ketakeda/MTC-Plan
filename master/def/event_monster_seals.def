@@ -18,7 +18,7 @@ Format							# 出力フォーマット
 	seal_5,$J; seal_6,$K; seal_7,$L; seal_8,$M
 	asset_bundle_id,$N
 	reset_count,$O
-	reset_end_at,$P
+	reset_end_at,$P,DateTime
 	item_type,$Q
 	item_id,$R
 	amount,$S

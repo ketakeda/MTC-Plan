@@ -34,3 +34,4 @@ id,name,monster_name,monster_id,level,base_rate_type,get_monster_param,exp,money
 33,コマさんからの挑戦状,コマさん,159000,1,1,"{""skill_type"":0}",0,0
 34,花子さんからの挑戦状,花子さん,306000,1,1,"{""skill_type"":0}",0,0
 35,トゲニャンからの挑戦状,トゲニャン,153000,1,1,"{""skill_type"":0}",0,0
+36,黒ニャン騎士からの挑戦状,黒ニャン騎士,5000640,1,10,"{""skill_type"":1}",0,0

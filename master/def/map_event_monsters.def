@@ -49,10 +49,10 @@ Format							# 出力フォーマット
 	event_id_59,$CN; monster_id_59,$CO; monster_weight_59,$CP
 	event_id_60,$CQ; monster_id_60,$CR; monster_weight_60,$CS
 	event_id_61,$CT; monster_id_61,$CU; monster_weight_61,$CV
+	event_id_62,$CW; monster_id_62,$CX; monster_weight_62,$CY
+	event_id_63,$CZ; monster_id_63,$DA; monster_weight_63,$DB
+	event_id_64,$DC; monster_id_64,$DD; monster_weight_64,$DE
 
-#	event_id_33,$CW; monster_id_33,$CX; monster_weight_33,$CY
-#	event_id_34,$CZ; monster_id_34,$DA; monster_weight_34,$DB
-#	event_id_35,$DC; monster_id_35,$DD; monster_weight_35,$DE
 #	event_id_36,$DF; monster_id_36,$DG; monster_weight_36,$DH
 #	event_id_37,$DI; monster_id_37,$DJ; monster_weight_37,$DK
 #	event_id_38,$DL; monster_id_38,$DM; monster_weight_38,$DN

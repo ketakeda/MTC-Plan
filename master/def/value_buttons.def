@@ -16,8 +16,8 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; type,$C
-	value_template,$D; display_value_template_id,$E; label_id,$F
+	id,$B; type,$C; value_template,$D
+	display_value_template_id,$E; label_id,$F
 	expire_at,$G,DateTime
 
 # エリアーコードデータ csv出力定義

@@ -1,0 +1,28 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.8.0\current\data\MTC リスト マルチ機能ゆうびん.xlsx
+
+Sheet							# シート名
+	マルチ機能ゆうびんリスト
+
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; schedule_id,$C
+	item_name_id,$D; title_id,$E; body_id,$F; button_ids,$G
+	replacement_reward_deal_id,$H; replacement_title_id,$I; replacement_body_id,$J; expire_at,$K,DateTime
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/code_schedules.csv
+
+Conv
+

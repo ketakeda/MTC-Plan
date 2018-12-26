@@ -1,0 +1,27 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.8.0\current\data\MTC リスト マルチ機能ゆうびん.xlsx
+
+Sheet							# シート名
+	ファミマコラボシリアル番号
+
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; code_schedule_id,$C
+	code1,$D; code2,$E; code3,$F; code4,$G
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/code_candidates.csv
+
+Conv
+

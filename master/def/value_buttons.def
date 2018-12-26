@@ -1,0 +1,28 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.8.0\current\data\MTC リスト マルチ機能ゆうびん.xlsx
+
+Sheet							# シート名
+	マルチボタンリスト
+
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
+Format							# 出力フォーマット
+	id,$B; type,$C
+	value_template,$D; display_value_template_id,$E; label_id,$F
+	expire_at,$G,DateTime
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/value_buttons.csv
+
+Conv
+

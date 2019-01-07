@@ -79,7 +79,7 @@ id,collab_id,mail_title_id,mail_body_id,item_type,item_id,item_option,amount
 78,10019,1005,2000,6,415000,"{""area_code"":null, ""skill_type"":1}",1
 79,10019,1005,2000,6,417000,"{""area_code"":null, ""skill_type"":1}",1
 80,10002,1000,2000,1,100001,"",1
-81,10032,1008,2000,6,300000,"{""skill_type"":1}",1
+81,10032,1018,2000,18,1,"",1
 82,10033,1009,2000,6,152000,"{""name_prefix_type"":2, ""name_prefix_value"":3001, ""skill_type"":1}",1
 83,10034,1009,2000,6,152000,"{""name_prefix_type"":2, ""name_prefix_value"":3002, ""skill_type"":1}",1
 84,10035,1009,2000,6,152000,"{""name_prefix_type"":2, ""name_prefix_value"":3003, ""skill_type"":1}",1
@@ -126,4 +126,3 @@ id,collab_id,mail_title_id,mail_body_id,item_type,item_id,item_option,amount
 125,10137,1010,2000,13,32,"",1
 126,10138,1010,2000,13,32,"",1
 127,10139,1010,2000,13,32,"",1
-128,10132,1018,2000,18,1,"",1

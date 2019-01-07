@@ -1,3 +1,4 @@
 id,schedule_id,item_name_id,title_id,body_id,button_ids,replacement_reward_deal_id,replacement_title_id,replacement_body_id,expire_at
 1,10132,10000,10001,10002,"3,1",572,10001,10003,2019/03/04 23:59:59
 2,10132,10000,10001,10002,"1",572,10001,10003,2019/03/04 23:59:59
+3,19999,10000,10001,10002,"3,1",572,10001,10003,2019/03/04 23:59:59

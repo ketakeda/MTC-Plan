@@ -19,6 +19,7 @@ Format							# 出力フォーマット
 	id,$B; skill_id,$C; level,$E
 	initial_effect,$I; max_effect_scale,$L; level_adjust,$M
 	ceiling_effect,$N; calc_type,$J; ceiling_value,$O
+	skill_type,$X
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

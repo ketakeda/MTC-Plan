@@ -1,0 +1,25 @@
+# 特技
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.8.0\current\data\MTC 特技.xlsx
+
+Sheet							# シート名
+	絆（サーバ用）
+	
+Row								# 行範囲
+	3-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	1
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$A
+
+Format							# 出力フォーマット
+	skill_id,$A; exercise_condition,$B
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/skill_exercise_conditions.csv
+
+Conv

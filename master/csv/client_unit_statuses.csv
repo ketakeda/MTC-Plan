@@ -1,4 +1,4 @@
-Id,attack_id,magic_id,haunt_id,sp_skill_id,advantage_element,weak_element,sabotage_frequency,favorite_food_kind,unfavorite_food_kind
+id,attack_id,magic_id,haunt_id,sp_skill_id,advantage_element,weak_element,sabotage_frequency,favorite_food_kind,unfavorite_food_kind
 1000,25,20,1000,1000,3,4,2,19,12
 1800,25,20,1800,1800,3,4,2,19,12
 101000,13,1,101000,101000,1,2,1,1,2

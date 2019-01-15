@@ -14,7 +14,7 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$D
 
 Format							# 出力フォーマット
-	Id,id
+	id,id
 	attack_id,attack_id
 	magic_id,magic_id
 	haunt_id,haunt_id

@@ -52,18 +52,18 @@ Format							# 出力フォーマット
 	event_id_62,$CW; monster_id_62,$CX; monster_weight_62,$CY
 	event_id_63,$CZ; monster_id_63,$DA; monster_weight_63,$DB
 	event_id_64,$DC; monster_id_64,$DD; monster_weight_64,$DE
+	event_id_65,$DF; monster_id_65,$DG; monster_weight_65,$DH
+	event_id_66,$DI; monster_id_66,$DJ; monster_weight_66,$DK
+	event_id_67,$DL; monster_id_67,$DM; monster_weight_67,$DN
+	event_id_68,$DO; monster_id_68,$DP; monster_weight_68,$DQ
+	event_id_69,$DR; monster_id_69,$DS; monster_weight_69,$DT
+	event_id_70,$DU; monster_id_70,$DV; monster_weight_70,$DW
+	event_id_71,$DX; monster_id_71,$DY; monster_weight_71,$DZ
+	event_id_72,$EA; monster_id_72,$EB; monster_weight_72,$EC
+	event_id_73,$ED; monster_id_73,$EE; monster_weight_73,$EF
+	event_id_74,$EG; monster_id_74,$EH; monster_weight_74,$EI
+	event_id_75,$EJ; monster_id_75,$EK; monster_weight_75,$EL
 
-#	event_id_36,$DF; monster_id_36,$DG; monster_weight_36,$DH
-#	event_id_37,$DI; monster_id_37,$DJ; monster_weight_37,$DK
-#	event_id_38,$DL; monster_id_38,$DM; monster_weight_38,$DN
-#	event_id_39,$DO; monster_id_39,$DP; monster_weight_39,$DQ
-#	event_id_40,$DR; monster_id_40,$DS; monster_weight_40,$DT
-#	event_id_41,$DU; monster_id_41,$DV; monster_weight_41,$DW
-#	event_id_42,$DX; monster_id_42,$DY; monster_weight_42,$DZ
-#	event_id_43,$EA; monster_id_43,$EB; monster_weight_43,$EC
-#	event_id_44,$ED; monster_id_44,$EE; monster_weight_44,$EF
-#	event_id_45,$EG; monster_id_45,$EH; monster_weight_45,$EI
-#	event_id_46,$EJ; monster_id_46,$EK; monster_weight_46,$EL
 #	event_id_47,$EM; monster_id_47,$EN; monster_weight_47,$EO
 #	event_id_48,$EP; monster_id_48,$EQ; monster_weight_48,$ER
 #	event_id_49,$ES; monster_id_49,$ET; monster_weight_49,$EU

@@ -1,0 +1,33 @@
+# こうげきマスタ テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\${Version}\current\data\バトル\AttackMaster.xlsx
+
+Sheet							# シート名
+	Sheet1
+
+outputSheet
+	Sheet1
+	
+Row								# 行範囲
+	2-
+
+HeaderDefRow						# ヘッダー判定に使用する行
+	1
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
+	$J
+
+Format							# 出力フォーマット
+	id,Id
+	name,Name
+	power,Power
+	count,Count
+	element,Element
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/client_battle_attacks.csv
+Conv
+

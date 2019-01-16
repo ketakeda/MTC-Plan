@@ -1,0 +1,38 @@
+# ひっさつ関連マスタ テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\${Version}\current\data\バトル\SpAttackMaster.xlsx
+
+Sheet							# シート名
+	master
+
+outputSheet
+	master
+	
+Row								# 行範囲
+	2-
+
+HeaderDefRow						# ヘッダー判定に使用する行
+	1
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$A
+	$D
+	$G
+	$I
+	$R
+
+Format							# 出力フォーマット
+	id,Id
+	name,Name
+	description,Description
+	power,Power
+	count,AttackCount
+	element,Element
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/client_battle_spattacks.csv
+
+Conv
+

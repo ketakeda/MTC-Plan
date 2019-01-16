@@ -1,0 +1,31 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.8.0\current\data\MTC リスト DBMaster.xlsx
+Sheet							# シート名
+	妖怪リスト
+Row								# 行範囲
+	6-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
+
+Format							# 出力フォーマット
+	id,id
+	attack_id,attack_id
+	magic_id,magic_id
+	haunt_id,haunt_id
+	sp_skill_id,sp_skill_id
+	advantage_element,advantage_element
+	weak_element,weak_element
+	sabotage_frequency,sabotage_frequency
+	favorite_food_kind,favorite_food_kind
+	unfavorite_food_kind,unfavorite_food_kind
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/client_unit_statuses.csv
+Conv

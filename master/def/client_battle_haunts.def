@@ -1,7 +1,7 @@
 # とりつき関連マスタ テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\${Version}\current\data\バトル\HauntMaster.xlsx
+	${MTC-Developer}\Master\1.8.0\current\data\バトル\HauntMaster.xlsx
 
 Sheet							# シート名
 	Sheet1

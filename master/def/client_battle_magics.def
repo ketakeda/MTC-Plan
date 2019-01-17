@@ -1,0 +1,38 @@
+# 妖術マスタ テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.8.0\current\data\バトル\MagicMaster.xlsx
+
+Sheet							# シート名
+	master
+
+outputSheet
+	master
+	
+Row								# 行範囲
+	2-
+
+HeaderDefRow						# ヘッダー判定に使用する行
+	1
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$A
+	$C
+	$D
+	$E
+	$F
+	$I
+	$K
+
+Format							# 出力フォーマット
+	id,Id
+	name,Name
+	power,Power
+	count,Count
+	element,Element
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/client_battle_magics.csv
+
+Conv

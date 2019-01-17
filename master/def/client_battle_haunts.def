@@ -1,0 +1,37 @@
+# とりつき関連マスタ テーブル出力定義
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.8.0\current\data\バトル\HauntMaster.xlsx
+
+Sheet							# シート名
+	Sheet1
+
+outputSheet
+	Sheet1
+	
+Row								# 行範囲
+	2-
+
+HeaderDefRow						# ヘッダー判定に使用する行
+	1
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$A
+	$G
+	$H
+#	$I
+	$J
+
+Format							# 出力フォーマット
+	id,Id
+	name,Name
+	description,HauntDescription
+	power,Power
+	count,Count
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/client_battle_haunts.csv
+
+Conv
+

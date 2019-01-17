@@ -1,22 +1,25 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.8.0\current\message\MessageList.xlsx
+	${MTC-Developer}\Master\1.8.0\current\data\MTC 特技.xlsx
 
 Sheet							# シート名
-	Ab特技名
+	特技リスト
 
 Row								# 行範囲
-	4-
+	5-
 
 HeaderDefRow					# ヘッダー判定に使用する行
-	3
+	2
 
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; body,$G
+	id,$B
+	skill_id,$C
+	level,$E
+	body,$D
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

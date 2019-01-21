@@ -1,0 +1,23 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\1.8.0\current\message\MessageListLibrary.xlsx
+
+Sheet							# シート名
+	Ab紹介
+
+Row								# 行範囲
+	4-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
+
+Format							# 出力フォーマット
+	id,$B
+	body,$G
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/message_list_library_monster_library_introductions.csv
+
+Conv

@@ -19,7 +19,9 @@ Format							# 出力フォーマット
 	id,$B
 	skill_id,$C
 	level,$E
-	body,$D
+	name,$D
+	description,$G
+	description_gacha,$F
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

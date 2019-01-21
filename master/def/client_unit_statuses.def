@@ -21,6 +21,15 @@ Format							# 出力フォーマット
 	sp_skill_id,sp_skill_id
 	advantage_element,advantage_element
 	weak_element,weak_element
+	attack_frequency,attack_frequency
+	magic_frequency,magic_frequency
+	haunt_frequency,haunt_frequency
+	defense_frequency,defense_frequency
+	haunt_resist,haunt_resist
+	category,$AM
+	tone_type,ToneType
+	frame_type,FrameType
+	move_type,MoveType
 	sabotage_frequency,sabotage_frequency
 	favorite_food_kind,favorite_food_kind
 	unfavorite_food_kind,unfavorite_food_kind

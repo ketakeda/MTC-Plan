@@ -35,9 +35,12 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
 	id,$B; collab_id,$C; latitude,$D; longitude,$E
-	name,$F; comment,$G
-	open_time,$H,DateTime; close_time,$I,DateTime
-	ip_address,$J;
+	name,$F; comment,$G,string
+	open_time,$H,time; close_time,$I,time
+	ip_address,$J
+
+	major,$K,numeric; minor,$L,numeric
+	proximity,$M,numeric; icon,$N,numeric; enable,$O
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

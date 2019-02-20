@@ -63,10 +63,9 @@ Format							# 出力フォーマット
 	event_id_73,$ED; monster_id_73,$EE; monster_weight_73,$EF
 	event_id_74,$EG; monster_id_74,$EH; monster_weight_74,$EI
 	event_id_75,$EJ; monster_id_75,$EK; monster_weight_75,$EL
-
-#	event_id_47,$EM; monster_id_47,$EN; monster_weight_47,$EO
-#	event_id_48,$EP; monster_id_48,$EQ; monster_weight_48,$ER
-#	event_id_49,$ES; monster_id_49,$ET; monster_weight_49,$EU
+	event_id_76,$EM; monster_id_76,$EN; monster_weight_76,$EO
+	event_id_77,$EP; monster_id_77,$EQ; monster_weight_77,$ER
+	event_id_78,$ES; monster_id_78,$ET; monster_weight_78,$EU
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

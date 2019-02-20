@@ -12,11 +12,11 @@ id,name,type,price,stone_amount,yd_chip_id,reward_deal_id,order,android_product_
 11,（未使用）初心者応援 妖怪玉 120個,0,3800,120,0,5003,12,jp.gungho.yww_and_youkaidama_sp_e,jp.gungho.yww_ios_youkaidama_sp_E,2,1,,0,99999
 12,（未使用）初心者応援 妖怪玉 170個,0,5000,170,0,5004,13,jp.gungho.yww_and_youkaidama_sp_f,jp.gungho.yww_ios_youkaidama_sp_F,2,1,,0,99999
 13,妖怪玉 180個,0,9800,180,0,0,7,jp.gungho.yww_and_youkaidama_sp_g,jp.gungho.yww_ios_youkaidama_sp_G,0,0,,0,1
-14,YDチップ30D,2,240,0,3,0,14,jp.gungho.yww_and_ydchip_a,jp.gungho.yww_ios_ydchip_A,0,0,banner/set/22fdcd071ab4d8844227eaa7ace831db45997d4195f208fb9c8351f88f82365d07069f259a5020103c2c629c2ccaef8f2c7c82de5a534ce776175499b2eb14d0.png,0,1
-15,ハロウィンパック,1,3800,70,0,5010,15,jp.gungho.yww_and_event_set_a,jp.gungho.yww_ios_event_set_A,2,1,banner/set/7535cf31a05a26f9a12f346fc9c55cbe322cc46962e21e9089d1cb3d936fffc094dc505478891fb5800bec34f2b31736ce5836c3fad0885c28c0a39ce36330be.png,0,60001
-16,クリスマスパック,1,3800,70,0,5030,16,jp.gungho.yww_and_event_set_b,jp.gungho.yww_ios_event_set_B,2,1,banner/set/6f2d26b2724697ff75b72f34a29e2a95bbafad003451a2f60b830331c9eca4040a86e1ed00b6e32a8d3c848df2a5f1c0523d0f3bd73efdb21f897ea774a6aaf0.png,0,60003
-17,お正月パック,1,5000,100,0,5040,17,jp.gungho.yww_and_event_set_c,jp.gungho.yww_ios_event_set_C,2,1,banner/set/72d74e36f5f3100201cc688ab283d540c336c55af9ca80c28cd5370df6d9089ebb998a60cbf3c5593fdb5c5b070b3f2c02ccb89a18b262c1a30772630447bda1.png,0,60004
-18,バレンタインパック,1,3800,70,0,5050,18,jp.gungho.yww_and_event_set_d,jp.gungho.yww_ios_event_set_D,2,1,banner/set/c24f1358ad274cc3e31903d620376a3d7f491d9a0ee85b89d065bc6d728a3f1c718652f2bf61a2f7f2778e57eb6a5d63dc445862ba57f1fee58980e4b6263db8.png,0,60005
-19,ホワイトデーおともだちパック,1,3800,70,0,5060,19,jp.gungho.yww_and_event_set_e,jp.gungho.yww_ios_event_set_E,2,1,banner/set/set_20190311.png,0,60006
-20,Sランク妖怪育成パック,1,5000,100,0,5070,20,jp.gungho.yww_and_event_set_f,jp.gungho.yww_ios_event_set_F,2,1,banner/set/set_20190315.png,0,60007
-21,降臨ボスおともだちパック,1,2000,35,0,5080,21,jp.gungho.yww_and_event_set_g,jp.gungho.yww_ios_event_set_G,2,1,banner/set/set_20190318.png,0,60008
+14,YDチップ30D,2,240,0,3,0,14,jp.gungho.yww_and_ydchip_a,jp.gungho.yww_ios_ydchip_A,0,0,shop_yokaidama_image_YD01.png,0,1
+15,ハロウィンパック,1,3800,70,0,5010,15,jp.gungho.yww_and_event_set_a,jp.gungho.yww_ios_event_set_A,2,1,set_Halloween_01.png,0,60001
+16,クリスマスパック,1,3800,70,0,5030,16,jp.gungho.yww_and_event_set_b,jp.gungho.yww_ios_event_set_B,2,1,set_christmas2018_01.png,0,60003
+17,お正月パック,1,5000,100,0,5040,17,jp.gungho.yww_and_event_set_c,jp.gungho.yww_ios_event_set_C,2,1,set_newyear2019_01.png,0,60004
+18,バレンタインパック,1,3800,70,0,5050,18,jp.gungho.yww_and_event_set_d,jp.gungho.yww_ios_event_set_D,2,1,set_valentine2019_01.png,0,60005
+19,ホワイトデーおともだちパック,1,3800,70,0,5060,19,jp.gungho.yww_and_event_set_e,jp.gungho.yww_ios_event_set_E,2,1,set_20190311.png,0,60006
+20,Sランク妖怪育成パック,1,5000,100,0,5070,20,jp.gungho.yww_and_event_set_f,jp.gungho.yww_ios_event_set_F,2,1,set_20190315.png,0,60007
+21,降臨ボスおともだちパック,1,2000,35,0,5080,21,jp.gungho.yww_and_event_set_g,jp.gungho.yww_ios_event_set_G,2,1,set_20190318.png,0,60008

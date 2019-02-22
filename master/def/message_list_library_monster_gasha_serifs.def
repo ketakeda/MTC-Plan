@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.9.0\current\message\MessageListLibrary.xlsx
+	${MTC-Developer}\Master\2.0.0\currentcurrent\message\MessageListLibrary.xlsx
 
 Sheet							# シート名
 	Abガシャ紹介

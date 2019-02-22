@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.9.0\current\data\MTC リスト マルチ機能ゆうびん.xlsx
+	${MTC-Developer}\Master\2.0.0\currentcurrent\data\MTC リスト マルチ機能ゆうびん.xlsx
 
 Sheet							# シート名
 	ファミマコラボシリアル番号

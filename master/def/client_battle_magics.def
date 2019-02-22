@@ -1,7 +1,7 @@
 # 妖術マスタ テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\1.9.0\current\data\バトル\MagicMaster.xlsx
+	${MTC-Developer}\Master\2.0.0\currentcurrent\data\バトル\MagicMaster.xlsx
 
 Sheet							# シート名
 	master

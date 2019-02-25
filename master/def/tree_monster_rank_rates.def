@@ -1,7 +1,7 @@
 ﻿# 妖怪の木マスタ.xlsx テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\2.0.0\currentcurrent\data\MTC リスト 妖怪の木.xlsx
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト 妖怪の木.xlsx
 
 Sheet							# シート名
 	妖怪の木_元気度マスタ

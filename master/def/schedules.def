@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\2.0.0\currentcurrent\data\MTC リスト DBMaster.xlsx
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DBMaster.xlsx
 
 Sheet							# シート名
 	スケジュール

@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\2.0.0\currentcurrent\data\action_type_details.xlsx
+	${MTC-Developer}\Master\2.0.0\current\data\action_type_details.xlsx
 
 Sheet							# シート名
 	Sheet1

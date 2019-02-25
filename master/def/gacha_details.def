@@ -1,7 +1,7 @@
 # ガチャ詳細 gacha_details テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\2.0.0\currentcurrent\data\MTC リスト DB ガチャ.xlsx
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DB ガチャ.xlsx
 
 Sheet							# シート名
 	ガチャ詳細

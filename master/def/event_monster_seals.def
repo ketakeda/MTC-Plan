@@ -1,7 +1,7 @@
 # イベント封印妖怪 テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\2.0.0\currentcurrent\data\イベント封印妖怪マスタ.xlsx
+	${MTC-Developer}\Master\2.0.0\current\data\イベント封印妖怪マスタ.xlsx
 
 Sheet							# シート名
 	Sheet1

@@ -1,7 +1,7 @@
 ﻿# 妖怪大戦 妖怪大戦スケジュール テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\2.0.0\currentcurrent\data\妖怪大戦\妖怪大戦スケジュール.xlsx
+	${MTC-Developer}\Master\2.0.0\current\data\妖怪大戦\妖怪大戦スケジュール.xlsx
 
 Sheet							# シート名
 	Sheet1

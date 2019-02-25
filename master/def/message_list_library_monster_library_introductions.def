@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\2.0.0\currentcurrent\message\MessageListLibrary.xlsx
+	${MTC-Developer}\Master\2.0.0\current\message\MessageListLibrary.xlsx
 
 Sheet							# シート名
 	Ab紹介

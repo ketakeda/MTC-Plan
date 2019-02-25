@@ -1,7 +1,7 @@
 #
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\2.0.0\currentcurrent\data\nfc_rewards.xlsx
+	${MTC-Developer}\Master\2.0.0\current\data\nfc_rewards.xlsx
 
 Sheet							# シート名
 	nfc_rewards

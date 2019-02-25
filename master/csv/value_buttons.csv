@@ -1,6 +1,6 @@
 id,type,value_template,display_value_template_id,label_id,expire_at
-1,3,"{""Text"":""Famiport01BICO001directqr                        MDBA1901${code1}${code2}${code3}${code4}""}",11004,11000,2019/03/04 23:59:59
+1,3,"{""Text"":""Famiport01BICO001directqr                        FCFM0055${code1}${code2}${code3}${code4}""}",11004,11000,2019/03/04 23:59:59
 2,2,https://youkaiww.gungho.jp/member/collabo/family2nd/,0,11001,2019/03/04 23:59:59
-3,1,http://www.family.co.jp/services/smartphone/coupon.html,0,11002,2019/03/04 23:59:59
+3,2,https://youkaiww.gungho.jp/member/collabo/family2nd/#serial,0,11002,2019/03/04 23:59:59
 4,2,https://www.gungho.co.jp/,0,11003,2019/03/04 23:59:59
 5,3,"{""Text"":""Famiport01BICO001directqr                        MDBA1901${code1}${code2}${code3}${code4}""}",11004,11000,2020/03/04 23:59:59

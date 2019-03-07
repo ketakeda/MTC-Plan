@@ -1,0 +1,21 @@
+# photo_character_stamp
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DBさつえい.xlsx
+
+Sheet							# シート名
+	キャラクタースタンプ
+
+Row								# 行範囲
+	4-
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
+
+Format							# 出力フォーマット( ヘッダー,カラム; )
+	id,$D; body,$D; unlock_beginning,$E
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/photo_character_stamps.csv
+Conv

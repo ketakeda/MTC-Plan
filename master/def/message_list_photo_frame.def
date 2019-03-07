@@ -12,6 +12,9 @@ Row								# 行範囲
 HeaderDefRow					# ヘッダー判定に使用する行
 	3
 
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$B
+
 Format							# 出力フォーマット
 	body,$G
 

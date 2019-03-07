@@ -1,0 +1,22 @@
+#
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\2.0.0\current\message\MessageListPhotoItem.xlsx
+
+Sheet							# シート名
+	Ab妖怪スタンプ名
+
+Row								# 行範囲
+	4-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
+
+Format							# 出力フォーマット
+	body,$G
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/message_list_photo_character_stamp.csv
+
+Conv

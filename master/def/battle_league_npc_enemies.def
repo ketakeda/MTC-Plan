@@ -23,6 +23,7 @@ Format							# 出力フォーマット
 	skill_type,skill_type
 	level,level
 	attack_lv,attack_lv
+	special_attack_lv,special_attack_lv
 	magic_lv,magic_lv
 	accessory_id1,accessory_id1
 	accessory_lv1,accessory_lv1

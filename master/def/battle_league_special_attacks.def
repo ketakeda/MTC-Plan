@@ -1,0 +1,30 @@
+# battle_league_special_attacks
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DBバトルリーグ.xlsx
+
+Sheet							# シート名
+	特攻データ
+	
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
+
+Format							# 出力フォーマット
+	battle_league_id,battle_league_id
+	schedule_id,schedule_id
+	special_tribe_types,special_tribe_types
+	special_monster_ids,special_monster_ids
+	special_effects,special_effects
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/battle_league_special_attacks.csv
+
+Conv
+

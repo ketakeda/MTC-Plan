@@ -17,8 +17,9 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 
 Format							# 出力フォーマット
 	battle_league_id,battle_league_id
+	class_id,class_id
+	class_per,class_per
 	reward_deal_id,reward_deal_id
-	rate,rate
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

@@ -1,0 +1,3 @@
+battle_league_id,league_rank,name,winning_streak,reward_deal_id,npc_only,regulation_monster_ranks,regulation_tribe_types
+1000,1,フレッシュリーグ,2,0,0,"[1]","[1,2]"
+1000,2,アイアンリーグ,3,0,0,"[2]","[1,2]"

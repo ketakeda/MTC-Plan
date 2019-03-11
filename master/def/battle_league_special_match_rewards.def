@@ -1,0 +1,29 @@
+# battle_league_special_match_rewards
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DBバトルリーグ.xlsx
+
+Sheet							# シート名
+	スペシャルマッチ報酬データ
+	
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
+
+Format							# 出力フォーマット
+	battle_league_id,battle_league_id
+	reward_deal_id,reward_deal_id
+	rank,rank
+	rate,rate
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/battle_league_special_match_rewards.csv
+
+Conv
+

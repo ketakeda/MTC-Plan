@@ -1,0 +1,37 @@
+# battle_league_npc_enemies
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DBバトルリーグ.xlsx
+
+Sheet							# シート名
+	バトルリーグNPC
+	
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
+
+Format							# 出力フォーマット
+	battle_league_npc_deck_id,battle_league_npc_deck_id
+	group_place_order,group_place_order
+	monster_id,monster_id
+	character,character
+	skill_type,skill_type
+	level,level
+	attack_lv,attack_lv
+	magic_lv,magic_lv
+	accessory_id1,accessory_id1
+	accessory_lv1,accessory_lv1
+	accessory_id2,accessory_id2
+	accessory_lv2,accessory_lv2
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/battle_league_npc_enemies.csv
+
+Conv
+

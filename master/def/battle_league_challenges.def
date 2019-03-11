@@ -1,0 +1,27 @@
+# battle_league_challenges
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DBバトルリーグ.xlsx
+
+Sheet							# シート名
+	名声チャレンジデータ
+	
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
+
+Format							# 出力フォーマット
+	battle_league_id,battle_league_id
+	try_count,try_count
+	reward_deal_id,reward_deal_id
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/battle_league_challenges.csv
+
+Conv

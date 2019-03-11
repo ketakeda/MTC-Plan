@@ -1,0 +1,29 @@
+# battle_leagues
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DBバトルリーグ.xlsx
+
+Sheet							# シート名
+	バトルリーグマスター
+	
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
+
+Format							# 出力フォーマット
+	id,id; name,name
+	icon_pop_rate,icon_pop_rate; max_league_size,max_league_size
+	schedule_id,schedule_id
+	battle_turn,battle_turn
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/battle_leagues.csv
+
+Conv
+

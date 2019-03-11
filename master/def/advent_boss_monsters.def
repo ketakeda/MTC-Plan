@@ -16,14 +16,16 @@ ValidationCheck					# データを有効／無効をチェックするカラム
 	$B
 
 Format							# 出力フォーマット
-	id,$B; name,$C; tribe_type,$D
-	rank,$E; level,$F; hp,$G
-	attack,$H; magic,$I; defense,$J; speed,$K
-	action_type,$R
-	exp,$Y; money,$Z
-	base_rate_type,$AA; favorite_food_kind,$AB; unfavorite_food_kind,$AC
-	support_monster_1_id,$AD; support_monster_2_id,$AE; droppable_monster_id,$AF
-	consume_cost,$AG; difficult_type,$AH
+	id,id; name,name; tribe_type,tribe_type
+	rank,rank; level,level; hp,hp
+	attack,attack; magic,magic; defense,defense; speed,speed
+	action_type,action_type
+	exp,exp; money,money
+	base_rate_type,base_rate_type; favorite_food_kind,favorite_food_kind; unfavorite_food_kind,unfavorite_food_kind
+	support_monster_1_id,support_monster_1_id; support_monster_2_id,support_monster_2_id; droppable_monster_id,droppable_monster_id
+	consume_cost,consume_cost; difficult_type,difficult_type
+	skill_type,skill_type
+	support_monster_1_skill_type,support_monster_1_skill_type; support_monster_2_skill_type,support_monster_2_skill_type
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

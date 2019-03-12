@@ -1,2 +1,4 @@
 battle_league_id,schedule_id,base_rate,low_rate,medium_rate,high_rate
-1,80001,5,50,30,20
+1,80002,8,60,37,3
+1,80003,8,60,37,3
+1,80004,16,60,37,3

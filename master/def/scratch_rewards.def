@@ -1,7 +1,7 @@
 # スクラッチ報酬 テーブル出力定義
 
 inputFile						# 入力ファイル
-	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DBMaster.xlsx
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DB ログインボーナス.xlsx
 
 Sheet							# シート名
 	スクラッチ報酬

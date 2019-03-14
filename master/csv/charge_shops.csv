@@ -18,5 +18,10 @@ id,name,type,price,stone_amount,yd_chip_id,reward_deal_id,order,android_product_
 17,お正月パック,1,5000,100,0,5040,17,jp.gungho.yww_and_event_set_c,jp.gungho.yww_ios_event_set_C,2,1,set_newyear2019_01.png,0,60004
 18,バレンタインパック,1,3800,70,0,5050,18,jp.gungho.yww_and_event_set_d,jp.gungho.yww_ios_event_set_D,2,1,set_valentine2019_01.png,0,60005
 19,ホワイトデーおともだちパック,1,3800,70,0,5060,19,jp.gungho.yww_and_event_set_g,jp.gungho.yww_ios_event_set_G,2,1,set_20190311.png,0,60006
-20,Sランク妖怪育成パック,1,5000,100,0,5070,20,jp.gungho.yww_and_event_set_h,jp.gungho.yww_ios_event_set_H,2,1,set_20190315.png,0,60007
-21,降臨ボスおともだちパック,1,2000,35,0,5080,21,jp.gungho.yww_and_event_set_i,jp.gungho.yww_ios_event_set_I,2,1,set_20190318.png,0,60008
+20,Sランク妖怪いくせいパック,1,5000,100,0,5070,20,jp.gungho.yww_and_event_set_j,jp.gungho.yww_ios_event_set_J,2,1,set_20190315.png,0,400034
+21,降臨ボスおともだちパック,1,2000,35,0,5080,21,jp.gungho.yww_and_event_set_i,jp.gungho.yww_ios_event_set_I,2,1,set_20190318.png,0,60007
+22,Sランク妖怪いくせいパック,1,5000,100,0,5070,22,jp.gungho.yww_and_srankikusei_setloop_a,jp.gungho.yww_ios_srankikusei_setloop_A,2,1,set_sg.png,0,400037
+23,降臨ボスおともだちパック,1,2000,35,0,10080430,23,jp.gungho.yww_and_kourinotomodachi_setloop_a,jp.gungho.yww_ios_kourinotomodachi_setloop_A,2,1,set_20190401.png,0,60008
+24,Sランク妖怪いくせいパック,1,5000,100,0,5070,24,jp.gungho.yww_and_srankikusei_setloop_b,jp.gungho.yww_ios_srankikusei_setloop_B,2,1,set_sg.png,0,400040
+25,降臨ボスおともだちパック,1,2000,35,0,10190330,25,jp.gungho.yww_and_kourinotomodachi_setloop_b,jp.gungho.yww_ios_kourinotomodachi_setloop_B,2,1,set_20190422.png,0,60009
+26,Sランク妖怪いくせいパック,1,5000,100,0,5070,26,jp.gungho.yww_and_srankikusei_setloop_c,jp.gungho.yww_ios_srankikusei_setloop_C,2,1,set_sg.png,0,400044

@@ -9,11 +9,14 @@ Sheet							# シート名
 Row								# 行範囲
 	4-
 
+HeaderDefRow					# ヘッダー判定に使用する行
+	3
+
 ValidationCheck					# データを有効／無効をチェックするカラム
 	$D
 
 Format							# 出力フォーマット( ヘッダー,カラム; )
-	id,$D; body,$D; unlock_beginning,$E
+	id,id; body,id; unlock_beginning,unlock_beginning
 
 # エリアーコードデータ csv出力定義
 outputFile						# 出力ファイル

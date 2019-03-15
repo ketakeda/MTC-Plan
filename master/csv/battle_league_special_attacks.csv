@@ -1,2 +1,2 @@
 battle_league_id,schedule_id,special_tribe_types,special_monster_ids,special_effects
-1,80001,"[1,3,4,5]","[152000,159000,159010]","{""attack"":1.3,""magick"":1.3,""defense"":1.3,""speed"":1.3}"
+1,80001,"[1,3,4,5]","[152000,159000,159010]","{""attack"":1.3,""magic"":1.3,""defense"":1.3,""speed"":1.3}"

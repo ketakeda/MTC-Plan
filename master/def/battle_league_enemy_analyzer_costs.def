@@ -1,0 +1,29 @@
+# battle_league_enemy_analyzer_costs
+
+inputFile						# 入力ファイル
+	${MTC-Developer}\Master\2.0.0\current\data\MTC リスト DBバトルリーグ.xlsx
+
+Sheet							# シート名
+	敵デッキを見る機能
+	
+Row								# 行範囲
+	5-
+
+HeaderDefRow					# ヘッダー判定に使用する行
+	4
+
+ValidationCheck					# データを有効／無効をチェックするカラム
+	$D
+
+Format							# 出力フォーマット
+	id,id
+	battle_league_id,battle_league_id
+	use_count,use_count
+	game_money,game_money
+
+# エリアーコードデータ csv出力定義
+outputFile						# 出力ファイル
+	csv/battle_league_enemy_analyzer_costs.csv
+
+Conv
+
